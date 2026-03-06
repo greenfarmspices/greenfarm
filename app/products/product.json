@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Premium Cardamom",
+        "description": "Handpicked, fragrant green cardamom pods.",
+        "price": "₹450"
+    },
+    {
+        "name": "Organic Black Pepper",
+        "description": "Bold, pungent, and organically grown.",
+        "price": "₹300"
+    },
+    {
+        "name": "Pure Cinnamon Bark",
+        "description": "Sweet and woody authentic cinnamon.",
+        "price": "₹250"
+    },
+    {
+        "name": "Ayurvedic Turmeric",
+        "highCurcumin": true,
+        "description": "High curcumin content for max health benefits.",
+        "price": "₹180"
+    }
+]
