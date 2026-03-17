@@ -1,23 +1,470 @@
 [
-    {
-        "name": "Premium Cardamom",
-        "description": "Handpicked, fragrant green cardamom pods.",
-        "price": "₹450"
-    },
-    {
-        "name": "Organic Black Pepper",
-        "description": "Bold, pungent, and organically grown.",
-        "price": "₹300"
-    },
-    {
-        "name": "Pure Cinnamon Bark",
-        "description": "Sweet and woody authentic cinnamon.",
-        "price": "₹250"
-    },
-    {
-        "name": "Ayurvedic Turmeric",
-        "highCurcumin": true,
-        "description": "High curcumin content for max health benefits.",
-        "price": "₹180"
-    }
+  {
+    "id": 1,
+    "code": 60,
+    "name": "ALOE VERA SHAMPOO",
+    "slug": "aloe-vera-shampoo",
+    "category": "cosmetics",
+    "unit": "Nos",
+    "image": "/products/medicine/aloeverashampoo.jpg"
+  },
+  {
+    "id": 2,
+    "code": 63,
+    "name": "COCONUT MILK SHAMPOO",
+    "slug": "coconut-milk-shampoo",
+    "category": "cosmetics",
+    "unit": "Nos",
+    "image": "/products/medicine/coconutshampoo.jpg"
+  },
+  {
+    "id": 3,
+    "code": 62,
+    "name": "HIBISCUS SHAMPOO",
+    "slug": "hibiscus-shampoo",
+    "category": "cosmetics",
+    "unit": "Nos",
+    "image": "/products/medicine/hibiscusshammpoo.jpg"
+  },
+  {
+    "id": 5,
+    "code": 250,
+    "name": "ACTIPLUS",
+    "slug": "actiplus",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 6,
+    "code": 117,
+    "name": "AGASTHAYA RASAYANAM",
+    "slug": "agasthaya-rasayanam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 7,
+    "code": 115,
+    "name": "ALOE VERA GEL SMALL",
+    "slug": "aloe-vera-gel-small",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aloeveragel.jpg"
+  },
+  {
+    "id": 8,
+    "code": 287,
+    "name": "ALOE VERA SHAMPOO 200 ML",
+    "slug": "aloe-vera-shampoo-200-ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aloeverashampoo.jpg"
+  },
+  {
+    "id": 9,
+    "code": 283,
+    "name": "ALOEVERA GEL 100 GM",
+    "slug": "aloevera-gel-100-gm",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aloeveragel.jpg"
+  },
+  {
+    "id": 10,
+    "code": 114,
+    "name": "ALOEVERA GEL BIG",
+    "slug": "aloevera-gel-big",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aloeveragel.jpg"
+  },
+  {
+    "id": 11,
+    "code": 10,
+    "name": "AMRUDHADIENNA 500ML",
+    "slug": "amrudhadienna-500ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/amrudhadienna.jpg"
+  },
+  {
+    "id": 12,
+    "code": 28,
+    "name": "AMRUTHA THULASI",
+    "slug": "amrutha-thulasi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 13,
+    "code": 9,
+    "name": "AMRUTHADIENNA 1LTR",
+    "slug": "amruthadienna-1ltr",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/amrudhadienna.jpg"
+  },
+  {
+    "id": 14,
+    "code": 274,
+    "name": "ARTHO NORM",
+    "slug": "artho-norm",
+    "category": "medicine",
+    "unit": "Box",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 15,
+    "code": 277,
+    "name": "ASWAGANDHA CAP",
+    "slug": "aswagandha-cap",
+    "category": "medicine",
+    "unit": "Box",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 16,
+    "code": 168,
+    "name": "ASWAGANDHA LEHYAM",
+    "slug": "aswagandha-lehyam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 17,
+    "code": 236,
+    "name": "ASWAGANDHA TABLET",
+    "slug": "aswagandha-tablet",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 18,
+    "code": 40,
+    "name": "ASWAGANDHADI CHOORNAM",
+    "slug": "aswagandhadi-choornam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aswagandhadichoornam.jpg"
+  },
+  {
+    "id": 19,
+    "code": 255,
+    "name": "AVIPATHI CHOORNAM",
+    "slug": "avipathi-choornam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 20,
+    "code": 265,
+    "name": "AYUR BREATH GULIKA",
+    "slug": "ayur-breath-gulika",
+    "category": "medicine",
+    "unit": "Box",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 124,
+    "code": 220,
+    "name": "ALL SPICES",
+    "slug": "all-spices",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 125,
+    "code": 93,
+    "name": "ALL SPICES 100GM",
+    "slug": "all-spices-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 126,
+    "code": 248,
+    "name": "ALL SPICES 250GM",
+    "slug": "all-spices-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 127,
+    "code": 111,
+    "name": "ASAFOETADA 100GM",
+    "slug": "asafoetada-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 128,
+    "code": 153,
+    "name": "BAY LEAF",
+    "slug": "bay-leaf",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 129,
+    "code": 112,
+    "name": "BIRIYANI MASALA 250GM",
+    "slug": "biriyani-masala-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 130,
+    "code": 119,
+    "name": "BLACK CARDAMOM 100GM",
+    "slug": "black-cardamom-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 131,
+    "code": 97,
+    "name": "BLACK PEPPER 100GM",
+    "slug": "black-pepper-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 132,
+    "code": 291,
+    "name": "BLACK PEPPER 250 GM",
+    "slug": "black-pepper-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 133,
+    "code": 294,
+    "name": "CARDAMOM 250 GM",
+    "slug": "cardamom-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/Logo.jpg"
+  },
+  {
+    "id": 134,
+    "code": 295,
+    "name": "ASWAGANDHARASAYANAM",
+    "slug": "aswagandharasayanam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/aswagandharasayanam.jpg"
+  },
+  {
+    "id": 135,
+    "code": 296,
+    "name": "BRAHMIPLUS",
+    "slug": "brahmiplus",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brahmiplus.jpg"
+  },
+  {
+    "id": 136,
+    "code": 297,
+    "name": "BRAHMIVITA",
+    "slug": "brahmivita",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brahmivita.jpg"
+  },
+  {
+    "id": 137,
+    "code": 298,
+    "name": "BRIHATHYADIKASHAYAM",
+    "slug": "brihathyadikashayam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brihathyadikashayam.jpg"
+  },
+  {
+    "id": 138,
+    "code": 299,
+    "name": "BRINGARAJ",
+    "slug": "bringaraj",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/bringaraj.jpg"
+  },
+  {
+    "id": 139,
+    "code": 300,
+    "name": "CHARCOALSHAMPOO",
+    "slug": "charcoalshampoo",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/charcoalshampoo.jpg"
+  },
+  {
+    "id": 140,
+    "code": 301,
+    "name": "CHINCHADI",
+    "slug": "chinchadi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chinchadi.jpg"
+  },
+  {
+    "id": 141,
+    "code": 302,
+    "name": "CHOCOLATE",
+    "slug": "chocolate",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chocolate.jpg"
+  },
+  {
+    "id": 142,
+    "code": 303,
+    "name": "CUCUMBERGEL",
+    "slug": "cucumbergel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/cucumbergel.jpg"
+  },
+  {
+    "id": 143,
+    "code": 304,
+    "name": "DASAMOOLAHARITHAKILEHYAM",
+    "slug": "dasamoolaharithakilehyam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/dasamoolaharithakilehyam.jpg"
+  },
+  {
+    "id": 144,
+    "code": 305,
+    "name": "INDRATHULASI",
+    "slug": "indrathulasi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/indrathulasi.jpg"
+  },
+  {
+    "id": 145,
+    "code": 306,
+    "name": "KARPOORADHI",
+    "slug": "karpooradhi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/karpooradhi.jpg"
+  },
+  {
+    "id": 146,
+    "code": 307,
+    "name": "KOOSHMANDARASAYANAM",
+    "slug": "kooshmandarasayanam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kooshmandarasayanam.jpg"
+  },
+  {
+    "id": 147,
+    "code": 308,
+    "name": "KUMKUMADITHAILAM",
+    "slug": "kumkumadithailam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kumkumadithailam.jpg"
+  },
+  {
+    "id": 148,
+    "code": 309,
+    "name": "LAHARIMUKTHI",
+    "slug": "laharimukthi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/laharimukthi.jpg"
+  },
+  {
+    "id": 149,
+    "code": 310,
+    "name": "NEEMGEL",
+    "slug": "neemgel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/neemgel.jpg"
+  },
+  {
+    "id": 150,
+    "code": 311,
+    "name": "NEROFIT",
+    "slug": "nerofit",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/nerofit.jpg"
+  },
+  {
+    "id": 151,
+    "code": 312,
+    "name": "PAINEX",
+    "slug": "painex",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/painex.jpg"
+  },
+  {
+    "id": 152,
+    "code": 313,
+    "name": "PAPAYAGEL",
+    "slug": "papayagel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/papayagel.jpg"
+  },
+  {
+    "id": 153,
+    "code": 314,
+    "name": "ROSEMARYGEL",
+    "slug": "rosemarygel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/rosemarygel.jpg"
+  },
+  {
+    "id": 154,
+    "code": 315,
+    "name": "SANGUPUSHPAMGEL",
+    "slug": "sangupushpamgel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/sangupushpamgel.jpg"
+  },
+  {
+    "id": 155,
+    "code": 316,
+    "name": "SLIMFITCAPSULE",
+    "slug": "slimfitcapsule",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/slimfitcapsule.jpg"
+  },
+  {
+    "id": 156,
+    "code": 317,
+    "name": "VACHADITHAILAM",
+    "slug": "vachadithailam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/vachadithailam.jpg"
+  }
 ]
