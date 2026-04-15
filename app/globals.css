@@ -39,6 +39,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }

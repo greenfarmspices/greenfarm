@@ -77,7 +77,7 @@ export default function Products() {
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => {
                         return (
-                        <ScrollReveal key={product.id} delay={index * 0.1} className="relative group block rounded-[2.5rem] overflow-visible">
+                        <ScrollReveal key={product.id} delay={Math.min(index * 0.05, 0.15)} className="relative group block rounded-[2.5rem] overflow-visible">
                             {/* Card Top Area - Image Background */}
                             <div className="relative w-full h-[280px] rounded-[2.5rem] overflow-hidden border border-white/5 bg-gradient-to-b from-gray-100 via-gray-300 to-gray-400">
                                 <Image src={product.image} alt={product.name} fill className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-opacity duration-500 scale-105 group-hover:scale-110 drop-shadow-xl" />

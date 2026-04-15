@@ -3,6 +3,7 @@ import Products from "./products/page";
 import Contact from "./contact/page";
 import Image from "next/image";
 import ScrollReveal, { FadeIn } from "../components/ScrollReveal";
+import NatureParticles from "../components/NatureParticles";
 
 export default function Home() {
   return (
@@ -13,10 +14,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/botanica_hero.png')] bg-cover bg-center opacity-40 mix-blend-overlay max-h-[100svh]"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A1612] via-[#0A1612]/70 to-transparent max-h-[100svh]"></div>
 
+        {/* Nature Floating Particles */}
+        <NatureParticles count={12} className="z-[5]" />
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 flex-1 flex flex-col justify-center items-center">
           
           <ScrollReveal className="text-center w-full max-w-5xl mx-auto relative px-2">
-            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[4rem] xl:text-[4.5rem] font-[family-name:var(--font-playfair)] leading-tight mb-10 drop-shadow-lg whitespace-nowrap">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[4rem] xl:text-[4.5rem] font-[family-name:var(--font-playfair)] leading-tight mb-10 drop-shadow-lg">
               <span className="text-white">Authentic Ayurvedic Medicines</span> <br/>
               <span className="text-[#F4D160] italic">&amp; Premium Spices</span>
             </h1>
@@ -79,7 +83,8 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="relative pb-16">
+      <section id="about" className="relative pb-16 overflow-hidden">
+        <NatureParticles count={5} className="z-[1] opacity-60" />
         <About />
       </section>
 
@@ -101,12 +106,17 @@ export default function Home() {
       </div>
 
       {/* Contact Section */}
-      <section id="contact" className="relative pt-10 pb-20">
+      <section id="contact" className="relative pt-10 pb-20 overflow-hidden">
         <Contact />
       </section>
       
       {/* Stats Section */}
-      <section className="py-20 bg-[#0A1612]">
+      <section className="py-20 bg-[#0A1612] relative overflow-hidden">
+        {/* Ambient pulsing herb glow orbs */}
+        <div className="absolute top-1/2 left-1/4 w-40 h-40 bg-[#22c55e]/10 rounded-full blur-3xl animate-pulse pointer-events-none" />
+        <div className="absolute top-1/3 right-1/4 w-32 h-32 bg-[#F4D160]/10 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ animationDelay: '1.5s' }} />
+        <div className="absolute bottom-1/4 left-1/2 w-24 h-24 bg-[#4ade80]/10 rounded-full blur-2xl animate-pulse pointer-events-none" style={{ animationDelay: '3s' }} />
+        <NatureParticles count={5} className="z-[1] opacity-40" />
         <ScrollReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-12">
                 <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white max-w-sm leading-tight mb-8 md:mb-0">

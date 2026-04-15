@@ -3,7 +3,7 @@ import { SlideInLeft, SlideInRight } from "../../components/ScrollReveal";
 
 export default function About() {
     return (
-        <div className="bg-transparent py-16 relative">
+        <div className="bg-transparent py-16 relative overflow-hidden">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10 flex flex-col md:flex-row items-center gap-16 lg:gap-24">
                 
                 {/* Left: Image with floating experience box */}

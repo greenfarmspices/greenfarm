@@ -2,7 +2,7 @@ import { SlideInLeft, SlideInRight } from "../../components/ScrollReveal";
 
 export default function Contact() {
     return (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-white relative z-10 overflow-hidden">
             <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] tracking-tight mb-4">
                     Contact Us
