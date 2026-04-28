@@ -72,3 +72,12 @@ html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+/* Justify all paragraph text on mobile */
+@media (max-width: 767px) {
+  p {
+    text-align: justify !important;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}

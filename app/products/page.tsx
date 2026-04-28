@@ -77,36 +77,22 @@ export default function Products() {
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => {
                         return (
-                        <ScrollReveal key={product.id} delay={Math.min(index * 0.05, 0.15)} className="relative group block rounded-[2.5rem] overflow-visible">
+                        <ScrollReveal key={product.id} delay={Math.min(index * 0.05, 0.15)} className="relative group block rounded-[1.5rem] overflow-hidden bg-white hover:-translate-y-1 hover:shadow-xl transition-all">
                             {/* Card Top Area - Image Background */}
-                            <div className="relative w-full h-[280px] rounded-[2.5rem] overflow-hidden border border-white/5 bg-gradient-to-b from-gray-100 via-gray-300 to-gray-400">
+                            <div className="relative w-full h-[300px] rounded-[1.5rem] overflow-hidden bg-white border border-white/5 flex items-center justify-center">
                                 <Image src={product.image} alt={product.name} fill className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-opacity duration-500 scale-105 group-hover:scale-110 drop-shadow-xl" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                                
-                                {/* Top Labels */}
-                                <div className="absolute top-5 left-5 flex justify-between items-start z-10 w-full">
-                                    <div className="bg-white px-3 py-1.5 rounded-full flex items-center gap-1 shadow-md">
-                                        <span className="text-[#F4D160] text-[10px] tracking-tighter">★★★★★</span>
-                                        <span className="text-[#0A1612] text-[9px] font-extrabold ml-1">(5/5)</span>
-                                    </div>
-                                    {/* plus button removed as requested */}
+                                {/* Rating */}
+                                <div className="absolute top-5 left-5 bg-white px-3 py-1.5 rounded-full flex items-center gap-1 shadow-md">
+                                    <span className="text-[#F4D160] text-[10px] tracking-tighter">★★★★★</span>
+                                    <span className="text-[#0A1612] text-[9px] font-extrabold ml-1">(5)</span>
                                 </div>
                             </div>
-
-                            {/* Overlapping Info Box */}
-                            <div className="absolute bottom-[-30px] left-1/2 -translate-x-1/2 w-[90%] z-20">
-                                <div className="w-full rounded-[2rem] p-5 flex flex-col items-center justify-center shadow-2xl border border-white/5 transition-colors duration-500 bg-[#183625] group-hover:bg-[#254634]">
-                                    <h3 className="text-sm md:text-base font-[family-name:var(--font-playfair)] text-white mb-1 truncate w-full text-center">
-                                        {product.name}
-                                    </h3>
-                                    <span className="text-white/80 font-bold text-sm mb-4">₹ 250.00</span>
-                                    <button 
-                                        onClick={() => setSelectedProduct(product)}
-                                        className="bg-[#F4D160] text-[#0A1612] text-xs font-bold px-8 py-2.5 rounded-full hover:scale-105 transition-transform shadow-[0_4px_15px_rgba(244,209,96,0.3)]"
-                                    >
-                                        Buy Now
-                                    </button>
-                                </div>
+                            <div className="p-5 flex flex-col items-center text-center">
+                                <h3 className="text-sm md:text-base font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold mb-1 truncate w-full">{product.name}</h3>
+                                <span className="text-[#D7263D] font-bold text-lg mb-3">₹ 250.00</span>
+                                <button onClick={() => setSelectedProduct(product)} className="w-full bg-[#25D366] text-white text-sm font-bold py-2.5 rounded-full hover:scale-105 transition-transform shadow-md">
+                                    Order on WhatsApp
+                                </button>
                             </div>
                         </ScrollReveal>
                     )})
@@ -122,62 +108,66 @@ export default function Products() {
             {/* Premium WhatsApp Order Modal */}
             {selectedProduct && (
                 <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 transition-all duration-500">
-                    <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={() => setSelectedProduct(null)}></div>
+                    <div className="absolute inset-0 bg-white/70 backdrop-blur-sm" onClick={() => setSelectedProduct(null)}></div>
 
-                    <div className="relative w-full max-w-md bg-[#0A1612] rounded-[2.5rem] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.8)] border border-white/10 overflow-hidden flex flex-col max-h-[95vh] md:max-h-[90vh]">
+                    <div className="relative w-full max-w-md bg-white rounded-[2rem] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] border border-gray-100 overflow-hidden flex flex-col max-h-[95vh] md:max-h-[90vh] animate-in fade-in zoom-in duration-300">
                         {/* Header */}
-                        <div className="relative bg-[#183625] px-8 py-6 text-center shrink-0 border-b border-white/5 flex items-center justify-between">                            
-                            <h3 className="relative z-10 text-xl font-[family-name:var(--font-playfair)] text-white drop-shadow-md tracking-wide">Checkout</h3>
-                            <button onClick={() => setSelectedProduct(null)} className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white/50 hover:bg-white/10 hover:text-white transition-all">
+                        <div className="relative bg-white px-8 py-5 text-center shrink-0 border-b border-gray-100 flex items-center justify-between">                            
+                            <h3 className="relative z-10 text-xl font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold tracking-wide">Checkout</h3>
+                            <button onClick={() => setSelectedProduct(null)} className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-500 hover:bg-gray-100 hover:text-gray-800 transition-all">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                             </button>
                         </div>
 
                         {/* Content Area */}
-                        <div className="overflow-y-auto flex-grow custom-scrollbar p-6 md:p-8">
+                        <div className="overflow-y-auto flex-grow custom-scrollbar p-6 md:p-8 bg-gray-50/50">
                             
                             {/* Product Info & Quantity Selector */}
-                            <div className="flex items-center justify-between bg-[#183625] p-3 md:p-4 rounded-[1.5rem] border border-white/5 mb-8 shadow-inner">
+                            <div className="flex items-center justify-between bg-white p-3 md:p-4 rounded-[1.5rem] border border-gray-100 mb-8 shadow-sm">
                                 <div className="flex items-center gap-4">
-                                    <div className="w-16 h-16 relative rounded-xl overflow-hidden bg-white/5 shrink-0 border border-white/5">
+                                    <div className="w-16 h-16 relative rounded-xl overflow-hidden bg-gray-50 shrink-0 border border-gray-100 flex items-center justify-center">
                                         <Image src={selectedProduct.image} alt={selectedProduct.name} fill className="object-contain p-1" />
                                     </div>
                                     <div className="max-w-[120px] md:max-w-[150px]">
-                                        <h4 className="font-[family-name:var(--font-playfair)] text-white text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
-                                        <div className="text-[#F4D160] font-bold text-xs mt-1">₹ 250.00</div>
+                                        <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
+                                        <div className="text-[#D7263D] font-bold text-xs mt-1">₹ 250.00</div>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-2 bg-[#0A1612] px-2 md:px-3 py-1.5 rounded-full border border-white/5 shadow-sm">
-                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: Math.max(1, prev.quantity - 1)}))} className="text-white/50 hover:text-white w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">−</button>
-                                    <span className="text-white font-bold w-6 text-center text-sm">{formData.quantity}</span>
-                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: prev.quantity + 1}))} className="text-[#F4D160] hover:text-[#F4D160]/80 w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">+</button>
+                                <div className="flex items-center gap-2 bg-gray-50 px-2 md:px-3 py-1.5 rounded-full border border-gray-100 shadow-sm">
+                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: Math.max(1, prev.quantity - 1)}))} className="text-gray-500 hover:text-[#0A1612] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">−</button>
+                                    <span className="text-[#0A1612] font-bold w-6 text-center text-sm">{formData.quantity}</span>
+                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: prev.quantity + 1}))} className="text-[#25D366] hover:text-[#20BE5A] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">+</button>
                                 </div>
                             </div>
 
                             <form onSubmit={handleWhatsAppSubmit} className="space-y-4">
-                                <div className="space-y-2 relative group">
-                                    <label className="block text-[10px] font-bold text-[#F4D160]/80 uppercase tracking-widest pl-1">Full Name</label>
-                                    <input type="text" required placeholder="John Doe" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-5 py-3.5 bg-[#183625] border border-white/5 rounded-2xl focus:border-[#F4D160]/50 focus:bg-white/5 focus:ring-1 focus:ring-[#F4D160]/50 outline-none text-white text-sm font-medium placeholder:text-white/20 transition-all shadow-inner" />
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="space-y-1.5 text-left">
+                                        <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider pl-1">Full Name</label>
+                                        <input type="text" required placeholder="John Doe" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:border-[#25D366] focus:ring-1 focus:ring-[#25D366]/50 outline-none text-[#0A1612] text-sm font-medium placeholder:text-gray-400 transition-all shadow-sm" />
+                                    </div>
+                                    
+                                    <div className="space-y-1.5 text-left">
+                                        <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider pl-1">Phone Number</label>
+                                        <input type="tel" required placeholder="+91 98765 43210" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:border-[#25D366] focus:ring-1 focus:ring-[#25D366]/50 outline-none text-[#0A1612] text-sm font-medium placeholder:text-gray-400 transition-all shadow-sm" />
+                                    </div>
                                 </div>
                                 
-                                <div className="space-y-2 relative group">
-                                    <label className="block text-[10px] font-bold text-[#F4D160]/80 uppercase tracking-widest pl-1">Phone Number</label>
-                                    <input type="tel" required placeholder="+91 98765 43210" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="w-full px-5 py-3.5 bg-[#183625] border border-white/5 rounded-2xl focus:border-[#F4D160]/50 focus:bg-white/5 focus:ring-1 focus:ring-[#F4D160]/50 outline-none text-white text-sm font-medium placeholder:text-white/20 transition-all shadow-inner" />
-                                </div>
-                                
-                                <div className="space-y-2 relative group">
-                                    <label className="block text-[10px] font-bold text-[#F4D160]/80 uppercase tracking-widest pl-1">Delivery Address</label>
-                                    <textarea required rows={3} placeholder="Enter your full shipping address..." value={formData.address} onChange={(e) => setFormData({ ...formData, address: e.target.value })} className="w-full px-5 py-3.5 bg-[#183625] border border-white/5 rounded-2xl focus:border-[#F4D160]/50 focus:bg-white/5 focus:ring-1 focus:ring-[#F4D160]/50 outline-none text-white text-sm font-medium placeholder:text-white/20 transition-all resize-none shadow-inner" />
+                                <div className="space-y-1.5 text-left">
+                                    <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider pl-1">Delivery Address</label>
+                                    <textarea required rows={3} placeholder="Enter your full shipping address..." value={formData.address} onChange={(e) => setFormData({ ...formData, address: e.target.value })} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:border-[#25D366] focus:ring-1 focus:ring-[#25D366]/50 outline-none text-[#0A1612] text-sm font-medium placeholder:text-gray-400 transition-all resize-none shadow-sm" />
                                 </div>
 
-                                <div className="space-y-2 relative group">
-                                    <label className="block text-[10px] font-bold text-[#F4D160]/80 uppercase tracking-widest pl-1">Pincode</label>
-                                    <input type="text" required placeholder="Ex: 686514" value={formData.pincode} onChange={(e) => setFormData({ ...formData, pincode: e.target.value })} className="w-full px-5 py-3.5 bg-[#183625] border border-white/5 rounded-2xl focus:border-[#F4D160]/50 focus:bg-white/5 focus:ring-1 focus:ring-[#F4D160]/50 outline-none text-white text-sm font-medium placeholder:text-white/20 transition-all shadow-inner" />
+                                <div className="space-y-1.5 text-left">
+                                    <label className="block text-xs font-bold text-gray-500 uppercase tracking-wider pl-1">Pincode</label>
+                                    <input type="text" required placeholder="Ex: 686514" value={formData.pincode} onChange={(e) => setFormData({ ...formData, pincode: e.target.value })} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:border-[#25D366] focus:ring-1 focus:ring-[#25D366]/50 outline-none text-[#0A1612] text-sm font-medium placeholder:text-gray-400 transition-all shadow-sm" />
                                 </div>
 
-                                <button type="submit" className="w-full mt-6 bg-[#25D366] text-[#0A1612] font-extrabold py-4 px-6 rounded-2xl hover:bg-[#20BE5A] transition-all duration-300 shadow-[0_10px_20px_rgba(37,211,102,0.2)] hover:-translate-y-1 flex items-center justify-center gap-3">
+
+
+                                <button type="submit" className="w-full mt-2 bg-[#25D366] text-white font-extrabold py-3.5 px-6 rounded-xl hover:bg-[#20BE5A] transition-all duration-300 shadow-md hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
-                                    Checkout by WhatsApp
+                                    Order on WhatsApp
                                 </button>
                             </form>
                         </div>

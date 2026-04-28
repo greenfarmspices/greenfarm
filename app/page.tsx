@@ -95,9 +95,9 @@ export default function Home() {
 
       {/* Yellow Logo Banner */}
       <div className="bg-[#F4D160] py-8 border-y border-[#F4D160]/80 mt-10">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center opacity-80 flex-wrap gap-6">
+        <div className="max-w-7xl mx-auto px-4 flex justify-center md:justify-between items-center opacity-80 gap-6">
           {[...Array(3)].map((_, i) => (
-            <div key={i} className="flex items-center gap-2 text-[#0A1612] font-black text-sm md:text-xl tracking-tighter uppercase">
+            <div key={i} className={`flex items-center gap-2 text-[#0A1612] font-black text-sm md:text-xl tracking-tighter uppercase ${i > 0 ? 'hidden md:flex' : ''}`}>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
               GREEN FARM SPICES
             </div>

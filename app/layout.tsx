@@ -69,7 +69,7 @@ export default function RootLayout({
                   <div>
                     <div className="flex items-center gap-3 relative z-10">
                     <div className="w-10 h-10 rounded-full border border-white/10 overflow-hidden shadow-inner bg-[#183625] flex items-center justify-center">
-                      <span className="text-[#F4D160] font-[family-name:var(--font-playfair)] font-bold text-xl">G</span>
+                      <Image src="/logo.jpg" alt="Logo" width={36} height={36} className="rounded-full object-cover" />
                     </div>
                     <span className="text-white font-[family-name:var(--font-playfair)] text-xl tracking-wide uppercase max-w-[150px] md:max-w-none truncate md:text-clip">
                       GREEN FARM SPICES AND HERBALS GARDEN
