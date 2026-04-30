@@ -22,6 +22,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "GREEN FARM SPICES AND HERBALS GARDEN",
   description: "Premium ayurvedic spices and plants",
+  verification: {
+    google: "-JsLzkIzdFqlo7j59I_Q873kMy0Ug7qxwZIO-BOBrdQ",
+  },
 };
 
 export default function RootLayout({
