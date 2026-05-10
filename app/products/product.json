@@ -4,30 +4,33 @@
     "code": 60,
     "name": "ALOE VERA SHAMPOO",
     "slug": "aloe-vera-shampoo",
-    "category": "cosmetics",
+    "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeverashampoo.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 740
   },
   {
     "id": 2,
     "code": 63,
     "name": "COCONUT MILK SHAMPOO",
     "slug": "coconut-milk-shampoo",
-    "category": "cosmetics",
+    "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/coconutshampoo.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 750
   },
   {
     "id": 3,
     "code": 62,
     "name": "HIBISCUS SHAMPOO",
     "slug": "hibiscus-shampoo",
-    "category": "cosmetics",
+    "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/hibiscusshammpoo.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 740
   },
   {
     "id": 5,
@@ -36,8 +39,9 @@
     "slug": "actiplus",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/actiplus.jpg",
+    "status": 0,
+    "rate": 3500
   },
   {
     "id": 6,
@@ -46,8 +50,9 @@
     "slug": "agasthaya-rasayanam",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/agasthyarasayanam.jpg",
+    "status": 0,
+    "rate": 750
   },
   {
     "id": 7,
@@ -57,7 +62,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 380
   },
   {
     "id": 8,
@@ -67,7 +73,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeverashampoo.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 370
   },
   {
     "id": 9,
@@ -77,7 +84,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 250
   },
   {
     "id": 10,
@@ -87,7 +95,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 650
   },
   {
     "id": 11,
@@ -106,8 +115,9 @@
     "slug": "amrutha-thulasi",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/amruthathulasi.jpg",
+    "status": 0,
+    "rate": 780
   },
   {
     "id": 13,
@@ -117,7 +127,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/amrudhadienna.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 2600
   },
   {
     "id": 14,
@@ -126,7 +137,7 @@
     "slug": "artho-norm",
     "category": "medicine",
     "unit": "Box",
-    "image": "/Logo.jpg",
+    "image": "/products/medicine/arthonorm.jpg",
     "status": 0
   },
   {
@@ -136,8 +147,9 @@
     "slug": "aswagandha-cap",
     "category": "medicine",
     "unit": "Box",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/aswagandharasayanam.jpg",
+    "status": 0,
+    "rate": 1800
   },
   {
     "id": 16,
@@ -146,8 +158,9 @@
     "slug": "aswagandha-lehyam",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/aswagandharasayanam.jpg",
+    "status": 0,
+    "rate": 700
   },
   {
     "id": 17,
@@ -156,8 +169,9 @@
     "slug": "aswagandha-tablet",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/aswagandharasayanam.jpg",
+    "status": 0,
+    "rate": 2160
   },
   {
     "id": 18,
@@ -167,7 +181,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aswagandhadichoornam.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 980
   },
   {
     "id": 19,
@@ -177,7 +192,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/Logo.jpg",
-    "status": 0
+    "status": 0,
+    "rate": 580
   },
   {
     "id": 20,
@@ -186,38 +202,9 @@
     "slug": "ayur-breath-gulika",
     "category": "medicine",
     "unit": "Box",
-    "image": "/Logo.jpg",
-    "status": 0
-  },
-  {
-    "id": 124,
-    "code": 220,
-    "name": "ALL SPICES",
-    "slug": "all-spices",
-    "category": "spices",
-    "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
-  },
-  {
-    "id": 125,
-    "code": 93,
-    "name": "ALL SPICES 100GM",
-    "slug": "all-spices-100gm",
-    "category": "spices",
-    "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
-  },
-  {
-    "id": 126,
-    "code": 248,
-    "name": "ALL SPICES 250GM",
-    "slug": "all-spices-250gm",
-    "category": "spices",
-    "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/medicine/ayurbreathgulika.jpg",
+    "status": 0,
+    "rate": 1900
   },
   {
     "id": 127,
@@ -226,8 +213,9 @@
     "slug": "asafoetada-100gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/spices/asafoetada.jpg",
+    "status": 0,
+    "rate": 250
   },
   {
     "id": 128,
@@ -236,7 +224,7 @@
     "slug": "bay-leaf",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/spices/bayleaf.jpg",
     "status": 0
   },
   {
@@ -246,8 +234,9 @@
     "slug": "biriyani-masala-250gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/spices/biriyanimasala.jpg",
+    "status": 0,
+    "rate": 300
   },
   {
     "id": 130,
@@ -256,8 +245,9 @@
     "slug": "black-cardamom-100gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/spices/blackcardomom.jpg",
+    "status": 0,
+    "rate": 420
   },
   {
     "id": 131,
@@ -266,8 +256,9 @@
     "slug": "black-pepper-100gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
-    "status": 0
+    "image": "/products/spices/blackpepper.jpg",
+    "status": 0,
+    "rate": 180
   },
   {
     "id": 132,
@@ -276,7 +267,7 @@
     "slug": "black-pepper-250gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/spices/blackpepper.jpg",
     "status": 0
   },
   {
@@ -286,7 +277,7 @@
     "slug": "cardamom-250gm",
     "category": "spices",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/spices/cardamom.jpg",
     "status": 0
   },
   {
@@ -467,7 +458,8 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/painex.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 3500
   },
   {
     "id": 152,
@@ -518,5 +510,984 @@
     "unit": "Nos",
     "image": "/products/medicine/vachadithailam.jpg",
     "status": 1
+  },
+  {
+    "id": 157,
+    "code": null,
+    "name": "BAHUSHALAGULAM",
+    "slug": "bahushalagulam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/bahusalagulam.jpg",
+    "status": 0,
+    "rate": 750
+  },
+  {
+    "id": 158,
+    "code": null,
+    "name": "BALA THAILAM",
+    "slug": "bala-thailam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/balathailam.jpg",
+    "status": 0,
+    "rate": 1450
+  },
+  {
+    "id": 159,
+    "code": null,
+    "name": "BANSTONE",
+    "slug": "banstone",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/banstone.jpg",
+    "status": 0,
+    "rate": 2300
+  },
+  {
+    "id": 160,
+    "code": null,
+    "name": "BRAHMI CAPUSUL",
+    "slug": "brahmi-capusul",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brahmivita.jpg",
+    "status": 0,
+    "rate": 2250
+  },
+  {
+    "id": 161,
+    "code": null,
+    "name": "BRHAHMI VITA",
+    "slug": "brhahmi-vita",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brahmivita.jpg",
+    "status": 0,
+    "rate": 850
+  },
+  {
+    "id": 162,
+    "code": null,
+    "name": "BRIHATHYADI KASHAYAM",
+    "slug": "brihathyadi-kashayam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/brihathyadikashayam.jpg",
+    "status": 0,
+    "rate": 1650
+  },
+  {
+    "id": 163,
+    "code": null,
+    "name": "BRINGARAJ CAPSULE",
+    "slug": "bringaraj-capsule",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/bringarajcapsule.jpg",
+    "status": 0,
+    "rate": 2200
+  },
+  {
+    "id": 164,
+    "code": null,
+    "name": "CHARCOL SHAMPOO 200ML",
+    "slug": "charcol-shampoo-200ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/charcoalshampoo.jpg",
+    "status": 0,
+    "rate": 390
+  },
+  {
+    "id": 165,
+    "code": null,
+    "name": "CHINCHADI   1LTR",
+    "slug": "chinchadi-1ltr",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chinchadi.jpg",
+    "status": 0,
+    "rate": 3500
+  },
+  {
+    "id": 166,
+    "code": null,
+    "name": "CHINCHADI 500ML",
+    "slug": "chinchadi-500ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chinchadi.jpg",
+    "status": 0,
+    "rate": 1750
+  },
+  {
+    "id": 167,
+    "code": null,
+    "name": "CHOCOLTATE HOME MADE 180",
+    "slug": "chocoltate-home-made-180",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chocolate.jpg",
+    "status": 0,
+    "rate": 200
+  },
+  {
+    "id": 168,
+    "code": null,
+    "name": "CHOLCARE",
+    "slug": "cholcare",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/cholcare.jpg",
+    "status": 0,
+    "rate": 1900
+  },
+  {
+    "id": 169,
+    "code": null,
+    "name": "COCONUT MILK SHAMPOO 200 ML",
+    "slug": "coconut-milk-shampoo-200-ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/coconut.jpg",
+    "status": 0,
+    "rate": 380
+  },
+  {
+    "id": 170,
+    "code": null,
+    "name": "COUGH FREE",
+    "slug": "cough-free",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/coughfree.jpg",
+    "status": 0,
+    "rate": 1960
+  },
+  {
+    "id": 171,
+    "code": null,
+    "name": "CUCUMBER GEL",
+    "slug": "cucumber-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/cucumbergel.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 172,
+    "code": null,
+    "name": "DANTHAPALA KERAM 500ML(VETTUPALA)",
+    "slug": "danthapala-keram-500ml-vettupala",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/danthapalakeram.jpg",
+    "status": 0,
+    "rate": 1880
+  },
+  {
+    "id": 173,
+    "code": null,
+    "name": "DASAMOOLA HARITHAKI",
+    "slug": "dasamoola-harithaki",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/dasamoolaharithaki.jpg",
+    "status": 0,
+    "rate": 750
+  },
+  {
+    "id": 174,
+    "code": null,
+    "name": "DHANYAKATHI",
+    "slug": "dhanyakathi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/dhanyakanthi.jpg",
+    "status": 0,
+    "rate": 1320
+  },
+  {
+    "id": 175,
+    "code": null,
+    "name": "DIA FREE BIG",
+    "slug": "dia-free-big",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/diafree.jpg",
+    "status": 0,
+    "rate": 2100
+  },
+  {
+    "id": 176,
+    "code": null,
+    "name": "DIAQRE",
+    "slug": "diaqre",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/diaqre.jpg",
+    "status": 0,
+    "rate": 2200
+  },
+  {
+    "id": 177,
+    "code": null,
+    "name": "DIGESTIVE CARE CAP",
+    "slug": "digestive-care-cap",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/digestivecarecap.jpg",
+    "status": 0,
+    "rate": 1900
+  },
+  {
+    "id": 178,
+    "code": null,
+    "name": "DIGEX",
+    "slug": "digex",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/digex.jpg",
+    "status": 0,
+    "rate": 2180
+  },
+  {
+    "id": 179,
+    "code": null,
+    "name": "HAYALU GEL",
+    "slug": "hayalu-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/hayalugel.jpg",
+    "status": 0,
+    "rate": 730
+  },
+  {
+    "id": 180,
+    "code": null,
+    "name": "HIBISCUS SHAMPOO 200 ML",
+    "slug": "hibiscus-shampoo-200-ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/hibiscusshammpoo.jpg",
+    "status": 0,
+    "rate": 390
+  },
+  {
+    "id": 181,
+    "code": null,
+    "name": "INDRA NEELA THULASI",
+    "slug": "indra-neela-thulasi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/indrathulasi.jpg",
+    "status": 0,
+    "rate": 280
+  },
+  {
+    "id": 182,
+    "code": null,
+    "name": "KALLURVANJYADI",
+    "slug": "kallurvanjyadi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kallur.jpg",
+    "status": 0,
+    "rate": 1300
+  },
+  {
+    "id": 183,
+    "code": null,
+    "name": "KANCHANARA",
+    "slug": "kanchanara",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kanchanara.jpg",
+    "status": 0,
+    "rate": 2150
+  },
+  {
+    "id": 184,
+    "code": null,
+    "name": "KARPOORADHI 200ML",
+    "slug": "karpooradhi-200ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/karpooradhi.jpg",
+    "status": 0,
+    "rate": 780
+  },
+  {
+    "id": 185,
+    "code": null,
+    "name": "KARPOORADHI 500ML",
+    "slug": "karpooradhi-500ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/karpooradhi.jpg",
+    "status": 0,
+    "rate": 1800
+  },
+  {
+    "id": 186,
+    "code": null,
+    "name": "KOOSHMANDA RASAYANAM",
+    "slug": "kooshmanda-rasayanam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kooshmandarasayanam.jpg",
+    "status": 0,
+    "rate": 780
+  },
+  {
+    "id": 187,
+    "code": null,
+    "name": "KUNKUMADHI THAILAM",
+    "slug": "kunkumadhi-thailam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/kumkumadithailam.jpg",
+    "status": 0,
+    "rate": 1160
+  },
+  {
+    "id": 188,
+    "code": null,
+    "name": "LIVER EX",
+    "slug": "liver-ex",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/liverex.jpg",
+    "status": 0,
+    "rate": 2290
+  },
+  {
+    "id": 189,
+    "code": null,
+    "name": "MARI GOLD GEL",
+    "slug": "mari-gold-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg",
+    "status": 0,
+    "rate": 260
+  },
+  {
+    "id": 190,
+    "code": null,
+    "name": "MUSLI VITA",
+    "slug": "musli-vita",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/muslivita.jpg",
+    "status": 0,
+    "rate": 1740
+  },
+  {
+    "id": 191,
+    "code": null,
+    "name": "MUSTHADHI",
+    "slug": "musthadhi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg",
+    "status": 0,
+    "rate": 1680
+  },
+  {
+    "id": 192,
+    "code": null,
+    "name": "NEELIBRINGADHI 1LTR",
+    "slug": "neelibringadhi-1ltr",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/neelibringadhi.jpg",
+    "status": 0,
+    "rate": 3500
+  },
+  {
+    "id": 193,
+    "code": null,
+    "name": "NEELIBRINGADHI 500ML",
+    "slug": "neelibringadhi-500ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/neelibringadhi.jpg",
+    "status": 0,
+    "rate": 1800
+  },
+  {
+    "id": 194,
+    "code": null,
+    "name": "NEEM GEL",
+    "slug": "neem-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/neemgel.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 195,
+    "code": null,
+    "name": "NEUROFIT",
+    "slug": "neurofit",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/nerofit.jpg",
+    "status": 0,
+    "rate": 2490
+  },
+  {
+    "id": 196,
+    "code": null,
+    "name": "NIMBA CAPSUL",
+    "slug": "nimba-capsul",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/nimba.jpg",
+    "status": 0,
+    "rate": 2200
+  },
+  {
+    "id": 197,
+    "code": null,
+    "name": "OP TONE",
+    "slug": "op-tone",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/optone.jpg",
+    "status": 0,
+    "rate": 760
+  },
+  {
+    "id": 198,
+    "code": null,
+    "name": "PAINEX 500 ML",
+    "slug": "painex-500-ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/painex.jpg",
+    "status": 0,
+    "rate": 1750
+  },
+  {
+    "id": 199,
+    "code": null,
+    "name": "PANCHAMOOLI",
+    "slug": "panchamooli",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/panchamooli.jpg",
+    "status": 0,
+    "rate": 1260
+  },
+  {
+    "id": 200,
+    "code": null,
+    "name": "PAPPAYA GEL",
+    "slug": "pappaya-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/papayagel.jpg",
+    "status": 0,
+    "rate": 260
+  },
+  {
+    "id": 201,
+    "code": null,
+    "name": "PILE ESE",
+    "slug": "pile-ese",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/pileease.jpg",
+    "status": 0,
+    "rate": 1780
+  },
+  {
+    "id": 202,
+    "code": null,
+    "name": "PILES CAPSULE",
+    "slug": "piles-capsule",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/piles.jpg",
+    "status": 0,
+    "rate": 2320
+  },
+  {
+    "id": 203,
+    "code": null,
+    "name": "PUNARNNAVADI",
+    "slug": "punarnnavadi",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/punarnavadi.jpg",
+    "status": 0,
+    "rate": 1300
+  },
+  {
+    "id": 204,
+    "code": null,
+    "name": "ROSE MARY GEL",
+    "slug": "rose-mary-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/rosemarygel (2).jpg",
+    "status": 0,
+    "rate": 180
+  },
+  {
+    "id": 205,
+    "code": null,
+    "name": "SAFRON GEL",
+    "slug": "safron-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/Logo.jpg",
+    "status": 0,
+    "rate": 300
+  },
+  {
+    "id": 206,
+    "code": null,
+    "name": "SANGU PUSHPAM GEL",
+    "slug": "sangu-pushpam-gel",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/sangupushpamgel.jpg",
+    "status": 0,
+    "rate": 300
+  },
+  {
+    "id": 207,
+    "code": null,
+    "name": "SATAVARI BIG",
+    "slug": "satavari-big",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/satavari.jpg",
+    "status": 0,
+    "rate": 2160
+  },
+  {
+    "id": 208,
+    "code": null,
+    "name": "SATAVARI CAP",
+    "slug": "satavari-cap",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/satavari.jpg",
+    "status": 0,
+    "rate": 1800
+  },
+  {
+    "id": 209,
+    "code": null,
+    "name": "SATHAVARIGULAM",
+    "slug": "sathavarigulam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/sathavaricap.jpg",
+    "status": 0,
+    "rate": 850
+  },
+  {
+    "id": 210,
+    "code": null,
+    "name": "SERP EC",
+    "slug": "serp-ec",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/serp.jpg",
+    "status": 0,
+    "rate": 2250
+  },
+  {
+    "id": 211,
+    "code": null,
+    "name": "SLIM FIT CAP BIG",
+    "slug": "slim-fit-cap-big",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/slimfitcapsule.jpg",
+    "status": 0,
+    "rate": 2200
+  },
+  {
+    "id": 212,
+    "code": null,
+    "name": "THIKTHAKA KASHAYAM",
+    "slug": "thikthaka-kashayam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/thikathakakashayam.jpg",
+    "status": 0,
+    "rate": 1260
+  },
+  {
+    "id": 213,
+    "code": null,
+    "name": "THRIPHALA",
+    "slug": "thriphala",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/thripala.jpg",
+    "status": 0,
+    "rate": 1900
+  },
+  {
+    "id": 214,
+    "code": null,
+    "name": "VACHADI THAILAM 500ML",
+    "slug": "vachadi-thailam-500ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/vachadithailam.jpg",
+    "status": 0,
+    "rate": 1900
+  },
+  {
+    "id": 215,
+    "code": null,
+    "name": "VACHADTHI 200ML",
+    "slug": "vachadthi-200ml",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/vachadithailam.jpg",
+    "status": 0,
+    "rate": 850
+  },
+  {
+    "id": 216,
+    "code": null,
+    "name": "VIJAYA CHOORNAM",
+    "slug": "vijaya-choornam",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/vijaya.jpg",
+    "status": 0,
+    "rate": 780
+  },
+  {
+    "id": 217,
+    "code": null,
+    "name": "YASTIMADHU",
+    "slug": "yastimadhu",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/yasthimadhu.jpg",
+    "status": 0,
+    "rate": 2350
+  },
+  {
+    "id": 218,
+    "code": null,
+    "name": "BAY LEAF 50GM",
+    "slug": "bay-leaf-50gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/bayleaf.jpg",
+    "status": 0,
+    "rate": 80
+  },
+  {
+    "id": 219,
+    "code": null,
+    "name": "CARDAMOM 50GM",
+    "slug": "cardamom-50gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/cardamom.jpg",
+    "status": 0,
+    "rate": 290
+  },
+  {
+    "id": 220,
+    "code": null,
+    "name": "CHICKEN MASALA 250GM",
+    "slug": "chicken-masala-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/chicken masala.jpg",
+    "status": 0,
+    "rate": 210
+  },
+  {
+    "id": 221,
+    "code": null,
+    "name": "CHILLYP POWDER 250GM",
+    "slug": "chillyp-powder-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/chilly.jpg",
+    "status": 0,
+    "rate": 180
+  },
+  {
+    "id": 222,
+    "code": null,
+    "name": "CHOCOLATE FAMILY PACK",
+    "slug": "chocolate-family-pack",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/chocolate.jpg",
+    "status": 0,
+    "rate": 400
+  },
+  {
+    "id": 223,
+    "code": null,
+    "name": "CINAMON 100 GM",
+    "slug": "cinamon-100-gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/cinamon.jpg",
+    "status": 0,
+    "rate": 150
+  },
+  {
+    "id": 224,
+    "code": null,
+    "name": "CLOVE 100GM",
+    "slug": "clove-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/clove.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 225,
+    "code": null,
+    "name": "COFFEE POWDER 250GM",
+    "slug": "coffee-powder-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/coffee.jpg",
+    "status": 0,
+    "rate": 350
+  },
+  {
+    "id": 226,
+    "code": null,
+    "name": "CORIANDERPOWDER",
+    "slug": "corianderpowder",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/corriander.jpg",
+    "status": 0,
+    "rate": 190
+  },
+  {
+    "id": 227,
+    "code": null,
+    "name": "CUSCUS 100GM",
+    "slug": "cuscus-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/cuscus.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 228,
+    "code": null,
+    "name": "FENAL 100GM",
+    "slug": "fenal-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/fenel.jpg",
+    "status": 0,
+    "rate": 150
+  },
+  {
+    "id": 229,
+    "code": null,
+    "name": "FISH MASALA 250GM",
+    "slug": "fish-masala-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/fishmasala.jpg",
+    "status": 0,
+    "rate": 240
+  },
+  {
+    "id": 230,
+    "code": null,
+    "name": "GARAM MASALA 250GM",
+    "slug": "garam-masala-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/garammasala.jpg",
+    "status": 0,
+    "rate": 390
+  },
+  {
+    "id": 231,
+    "code": null,
+    "name": "GREEN TEA 100GM",
+    "slug": "green-tea-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/greentea.jpg",
+    "status": 0,
+    "rate": 330
+  },
+  {
+    "id": 232,
+    "code": null,
+    "name": "JEERA 100GM",
+    "slug": "jeera-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/jeera.jpg",
+    "status": 0,
+    "rate": 180
+  },
+  {
+    "id": 233,
+    "code": null,
+    "name": "MEAT MASALA 250GM",
+    "slug": "meat-masala-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/meatmasala.jpg",
+    "status": 0,
+    "rate": 210
+  },
+  {
+    "id": 234,
+    "code": null,
+    "name": "NUT MACE 50GM",
+    "slug": "nut-mace-50gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/nutmace.jpg",
+    "status": 0,
+    "rate": 370
+  },
+  {
+    "id": 235,
+    "code": null,
+    "name": "NUT MEG 100GM",
+    "slug": "nut-meg-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/nutmeg.jpg",
+    "status": 0,
+    "rate": 200
+  },
+  {
+    "id": 236,
+    "code": null,
+    "name": "RASAM POWDER 250GM",
+    "slug": "rasam-powder-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/rasam.jpg",
+    "status": 0,
+    "rate": 200
+  },
+  {
+    "id": 237,
+    "code": null,
+    "name": "RED SANDAL PER GRAM",
+    "slug": "red-sandal-per-gram",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/redsandal.jpg",
+    "status": 0,
+    "rate": 20
+  },
+  {
+    "id": 238,
+    "code": null,
+    "name": "SAMBAR POWDER 250GM",
+    "slug": "sambar-powder-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/sambarpowder.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 239,
+    "code": null,
+    "name": "SANDAL WOOD PER GRAM",
+    "slug": "sandal-wood-per-gram",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/sandal.jpg",
+    "status": 0,
+    "rate": 30
+  },
+  {
+    "id": 240,
+    "code": null,
+    "name": "SHAA JEERA 100GM",
+    "slug": "shaa-jeera-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/shaajeera.jpg",
+    "status": 0,
+    "rate": 150
+  },
+  {
+    "id": 241,
+    "code": null,
+    "name": "STAR 100",
+    "slug": "star-100",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/star.jpg",
+    "status": 0,
+    "rate": 250
+  },
+  {
+    "id": 242,
+    "code": null,
+    "name": "TEA GRANUL 750 GM",
+    "slug": "tea-granul-750-gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/teagranul.jpg",
+    "status": 0,
+    "rate": 300
+  },
+  {
+    "id": 243,
+    "code": null,
+    "name": "TEA POWDER 500GM",
+    "slug": "tea-powder-500gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/teapowder.jpg",
+    "status": 0,
+    "rate": 180
+  },
+  {
+    "id": 244,
+    "code": null,
+    "name": "TURMERIC POWDER 250GM",
+    "slug": "turmeric-powder-250gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/turmeric.jpg",
+    "status": 0,
+    "rate": 200
+  },
+  {
+    "id": 245,
+    "code": null,
+    "name": "WHITE PEPPER 100GM",
+    "slug": "white-pepper-100gm",
+    "category": "spices",
+    "unit": "Nos",
+    "image": "/products/spices/whitepepper.jpg",
+    "status": 0,
+    "rate": 440
   }
 ]

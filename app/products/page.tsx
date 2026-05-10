@@ -11,13 +11,14 @@ export default function Products() {
 
     interface Product {
         id: number;
-        code: number;
+        code: number | null;
         name: string;
         slug: string;
         category: string;
         unit: string;
         image: string;
         status: number;
+        rate: number;
     }
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
     const [formData, setFormData] = useState({ quantity: 1, name: '', phone: '', address: '', pincode: '' });
@@ -26,7 +27,7 @@ export default function Products() {
         e.preventDefault();
         if (!selectedProduct) return;
 
-        const message = `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Product Code:* ${selectedProduct.code}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
+        const message = `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Product Code:* ${selectedProduct.code || 'N/A'}\n*Price:* ₹${selectedProduct.rate || 0} x ${formData.quantity}\n*Total:* ₹${(selectedProduct.rate || 0) * formData.quantity}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappNumber = "918075859465"; // Actual WhatsApp number
 
@@ -39,8 +40,7 @@ export default function Products() {
     const filteredProducts = productsData.filter(product => {
         const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase());
         const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
-        const matchesStatus = product.status === 1;
-        return matchesSearch && matchesCategory && matchesStatus;
+        return matchesSearch && matchesCategory;
     });
 
     return (
@@ -89,7 +89,7 @@ export default function Products() {
                             </div>
                             <div className="p-5 flex flex-col items-center text-center">
                                 <h3 className="text-sm md:text-base font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold mb-1 truncate w-full">{product.name}</h3>
-                                <span className="text-[#D7263D] font-bold text-lg mb-3">₹ 250.00</span>
+                                <span className="text-[#D7263D] font-bold text-lg mb-3">₹ {product.rate ? product.rate.toFixed(2) : '250.00'}</span>
                                 <button onClick={() => setSelectedProduct(product)} className="w-full bg-[#25D366] text-white text-sm font-bold py-2.5 rounded-full hover:scale-105 transition-transform shadow-md">
                                     Order on WhatsApp
                                 </button>
@@ -130,7 +130,7 @@ export default function Products() {
                                     </div>
                                     <div className="max-w-[120px] md:max-w-[150px]">
                                         <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
-                                        <div className="text-[#D7263D] font-bold text-xs mt-1">₹ 250.00</div>
+                                        <div className="text-[#D7263D] font-bold text-xs mt-1">₹ {selectedProduct.rate ? selectedProduct.rate.toFixed(2) : '250.00'}</div>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-2 bg-gray-50 px-2 md:px-3 py-1.5 rounded-full border border-gray-100 shadow-sm">

@@ -38,22 +38,22 @@ export default function RootLayout({
         {/* Main Wrapper for Mobile Overflow Fix */}
         <div className="flex flex-col min-h-screen relative overflow-x-hidden w-full max-w-[100vw]">
             {/* Global Navbar */}
-            <nav className="absolute top-0 w-full z-50 py-6 px-4 sm:px-6 lg:px-8 bg-transparent">
-              <div className="max-w-7xl mx-auto flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-2">
-                  <span className="font-[family-name:var(--font-playfair)] text-2xl font-black tracking-widest flex items-center gap-3 text-[#F4D160] drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)] uppercase">
-                    <div className="w-10 h-10 bg-[#183625] rounded-full flex items-center justify-center p-0.5 shadow-md border border-[#F4D160]/30 shrink-0">
-                      <Image src="/logo.jpg" alt="Logo" width={36} height={36} className="rounded-full object-cover" />
+            <nav className="absolute top-0 w-full z-50 py-8 px-6 sm:px-12 lg:px-16 bg-transparent">
+              <div className="w-full flex items-center justify-between">
+                <Link href="/" className="flex items-center gap-2 hover:scale-105 transition-transform duration-300">
+                  <span className="font-[family-name:var(--font-playfair)] text-3xl font-black tracking-[0.15em] flex items-center gap-3 text-[#F4D160] drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)] uppercase">
+                    <div className="w-12 h-12 bg-[#183625] rounded-full flex items-center justify-center p-0.5 shadow-lg border-2 border-[#F4D160]/40 shrink-0">
+                      <Image src="/logo.jpg" alt="Logo" width={44} height={44} className="rounded-full object-cover" />
                     </div>
                     <span>GreenFarm</span>
                   </span>
                 </Link>
                 
-                <div className="hidden md:flex items-center gap-8 font-medium text-sm text-white/90">
-                  <Link href="/#home" className="hover:text-[#F4D160] transition-colors border-b border-transparent hover:border-[#F4D160] pb-1 cursor-pointer">Home</Link>
-                  <Link href="/#about" className="hover:text-[#F4D160] transition-colors pb-1 cursor-pointer">About Us</Link>
-                  <Link href="/#products" className="hover:text-[#F4D160] transition-colors pb-1 cursor-pointer">Products</Link>
-                  <Link href="/#contact" className="hover:text-[#F4D160] transition-colors pb-1 cursor-pointer">Contact Us</Link>
+                <div className="hidden md:flex items-center gap-10 font-medium text-base lg:text-lg text-white drop-shadow-md">
+                  <Link href="/#home" className="hover:text-[#F4D160] transition-colors border-b-2 border-transparent hover:border-[#F4D160] pb-1 cursor-pointer">Home</Link>
+                  <Link href="/#about" className="hover:text-[#F4D160] transition-colors border-b-2 border-transparent hover:border-[#F4D160] pb-1 cursor-pointer">About Us</Link>
+                  <Link href="/#products" className="hover:text-[#F4D160] transition-colors border-b-2 border-transparent hover:border-[#F4D160] pb-1 cursor-pointer">Products</Link>
+                  <Link href="/#contact" className="hover:text-[#F4D160] transition-colors border-b-2 border-transparent hover:border-[#F4D160] pb-1 cursor-pointer">Contact Us</Link>
                 </div>
               </div>
             </nav>

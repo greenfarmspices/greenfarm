@@ -10,7 +10,7 @@ export default function About() {
                 <SlideInLeft className="relative w-full md:w-1/2 flex justify-start">
                     {/* Main Image Area */}
                     <div className="w-[90%] md:w-[85%] h-80 md:h-96 relative rounded-[2rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/5">
-                        <Image src="/about_ayurveda.png" alt="About GreenFarm" fill className="object-cover" />
+                        <Image src="/about_final.jpg" alt="About GreenFarm" fill className="object-cover" />
                     </div>
 
                     {/* Floating 25+ Years Card */}

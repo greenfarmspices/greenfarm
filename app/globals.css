@@ -64,13 +64,39 @@ html {
   }
 }
 
-/* Custom Scrollbar Utilities */
-.custom-scrollbar::-webkit-scrollbar {
+/* Premium Global Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A1612;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 209, 96, 0.5);
+  border-radius: 10px;
+  border: 2px solid #0A1612;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 209, 96, 0.8);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 209, 96, 0.5) #0A1612;
+}
+
+/* Hide scrollbar utility class */
+.hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
-.custom-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* Justify all paragraph text on mobile */
