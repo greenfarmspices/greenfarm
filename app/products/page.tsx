@@ -18,7 +18,7 @@ export default function Products() {
         unit: string;
         image: string;
         status: number;
-        rate: number;
+        rate?: number;
     }
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
     const [formData, setFormData] = useState({ quantity: 1, name: '', phone: '', address: '', pincode: '' });
