@@ -73,24 +73,24 @@ export default function Products() {
             </div>
 
             {/* Products Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 gap-y-20 mt-8 pb-12">
+            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-8 gap-y-12 sm:gap-y-20 mt-8 pb-12">
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => {
                         return (
                         <ScrollReveal key={product.id} delay={Math.min(index * 0.05, 0.15)} className="relative group block rounded-[1.5rem] overflow-hidden bg-white hover:-translate-y-1 hover:shadow-xl transition-all">
                             {/* Card Top Area - Image Background */}
-                            <div className="relative w-full h-[300px] rounded-[1.5rem] overflow-hidden bg-white border border-white/5 flex items-center justify-center">
-                                <Image src={product.image} alt={product.name} fill className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-opacity duration-500 scale-105 group-hover:scale-110 drop-shadow-xl" />
+                            <div className="relative w-full h-[180px] sm:h-[300px] rounded-[1rem] sm:rounded-[1.5rem] overflow-hidden bg-white border border-white/5 flex items-center justify-center">
+                                <Image src={product.image} alt={product.name} fill sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw" className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-opacity duration-500 scale-105 group-hover:scale-110 drop-shadow-xl" />
                                 {/* Rating */}
-                                <div className="absolute top-5 left-5 bg-white px-3 py-1.5 rounded-full flex items-center gap-1 shadow-md">
-                                    <span className="text-[#F4D160] text-[10px] tracking-tighter">★★★★★</span>
-                                    <span className="text-[#0A1612] text-[9px] font-extrabold ml-1">(5)</span>
+                                <div className="absolute top-3 left-3 sm:top-5 sm:left-5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-full flex items-center gap-1 shadow-md">
+                                    <span className="text-[#F4D160] text-[8px] sm:text-[10px] tracking-tighter">★★★★★</span>
+                                    <span className="text-[#0A1612] text-[8px] sm:text-[9px] font-extrabold ml-1">(5)</span>
                                 </div>
                             </div>
-                            <div className="p-5 flex flex-col items-center text-center">
-                                <h3 className="text-sm md:text-base font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold mb-1 truncate w-full">{product.name}</h3>
-                                <span className="text-[#D7263D] font-bold text-lg mb-3">₹ {product.rate ? product.rate.toFixed(2) : '250.00'}</span>
-                                <button onClick={() => setSelectedProduct(product)} className="w-full bg-[#25D366] text-white text-sm font-bold py-2.5 rounded-full hover:scale-105 transition-transform shadow-md">
+                            <div className="p-3 sm:p-5 flex flex-col items-center text-center">
+                                <h3 className="text-xs sm:text-base font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold mb-1 truncate w-full">{product.name}</h3>
+                                <span className="text-[#D7263D] font-bold text-sm sm:text-lg mb-2 sm:mb-3">₹ {product.rate ? product.rate.toFixed(2) : '250.00'}</span>
+                                <button onClick={() => setSelectedProduct(product)} className="w-full bg-[#25D366] text-white text-xs sm:text-sm font-bold py-2 sm:py-2.5 rounded-full hover:scale-105 transition-transform shadow-md">
                                     Order on WhatsApp
                                 </button>
                             </div>
@@ -126,7 +126,7 @@ export default function Products() {
                             <div className="flex items-center justify-between bg-white p-3 md:p-4 rounded-[1.5rem] border border-gray-100 mb-8 shadow-sm">
                                 <div className="flex items-center gap-4">
                                     <div className="w-16 h-16 relative rounded-xl overflow-hidden bg-gray-50 shrink-0 border border-gray-100 flex items-center justify-center">
-                                        <Image src={selectedProduct.image} alt={selectedProduct.name} fill className="object-contain p-1" />
+                                        <Image src={selectedProduct.image} alt={selectedProduct.name} fill sizes="64px" className="object-contain p-1" />
                                     </div>
                                     <div className="max-w-[120px] md:max-w-[150px]">
                                         <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>

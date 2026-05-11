@@ -43,7 +43,7 @@ export default function RootLayout({
                 <Link href="/" className="flex items-center gap-2 hover:scale-105 transition-transform duration-300">
                   <span className="font-[family-name:var(--font-playfair)] text-3xl font-black tracking-[0.15em] flex items-center gap-3 text-[#F4D160] drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)] uppercase">
                     <div className="w-12 h-12 bg-[#183625] rounded-full flex items-center justify-center p-0.5 shadow-lg border-2 border-[#F4D160]/40 shrink-0">
-                      <Image src="/logo.jpg" alt="Logo" width={44} height={44} className="rounded-full object-cover" />
+                      <Image src="/logo.jpg" alt="Logo" width={44} height={44} className="rounded-full object-cover" style={{ width: 'auto', height: 'auto' }} />
                     </div>
                     <span>GreenFarm</span>
                   </span>
@@ -72,7 +72,7 @@ export default function RootLayout({
                   <div>
                     <div className="flex items-center gap-3 relative z-10">
                     <div className="w-10 h-10 rounded-full border border-white/10 overflow-hidden shadow-inner bg-[#183625] flex items-center justify-center">
-                      <Image src="/logo.jpg" alt="Logo" width={36} height={36} className="rounded-full object-cover" />
+                      <Image src="/logo.jpg" alt="Logo" width={36} height={36} className="rounded-full object-cover" style={{ width: 'auto', height: 'auto' }} />
                     </div>
                     <span className="text-white font-[family-name:var(--font-playfair)] text-xl tracking-wide uppercase max-w-[150px] md:max-w-none truncate md:text-clip">
                       GREEN FARM SPICES AND HERBALS GARDEN
