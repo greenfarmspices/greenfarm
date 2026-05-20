@@ -28,7 +28,10 @@ export default function Products() {
         e.preventDefault();
         if (!selectedProduct) return;
 
-        const message = `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Price:* ₹${selectedProduct.rate || 0} x ${formData.quantity}\n*Total:* ₹${(selectedProduct.rate || 0) * formData.quantity}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
+        const isSpice = selectedProduct.category === 'spices';
+        const message = isSpice 
+            ? `*Enquiry for the price details*\n\n*Product:* ${selectedProduct.name}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`
+            : `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Price:* ₹${selectedProduct.rate || 0} x ${formData.quantity}\n*Total:* ₹${(selectedProduct.rate || 0) * formData.quantity}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappNumber = "918075859465"; // Actual WhatsApp number
 
@@ -90,9 +93,9 @@ export default function Products() {
                             </div>
                             <div className="p-3 sm:p-5 flex flex-col items-center text-center">
                                 <h3 className="text-xs sm:text-base font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold mb-1 truncate w-full">{product.name}</h3>
-                                <span className="text-[#D7263D] font-bold text-sm sm:text-lg mb-2 sm:mb-3">₹ {product.rate ? product.rate.toFixed(2) : '250.00'}</span>
+                                <span className="text-[#D7263D] font-bold text-sm sm:text-lg mb-2 sm:mb-3">{product.category === 'spices' ? 'Market Price' : `₹ ${product.rate ? product.rate.toFixed(2) : '250.00'}`}</span>
                                 <button onClick={() => setSelectedProduct(product)} className="w-full bg-[#25D366] text-white text-xs sm:text-sm font-bold py-2 sm:py-2.5 rounded-full hover:scale-105 transition-transform shadow-md">
-                                    Order on WhatsApp
+                                    {product.category === 'spices' ? 'Enquire' : 'Order on WhatsApp'}
                                 </button>
                             </div>
                         </ScrollReveal>
@@ -132,7 +135,7 @@ export default function Products() {
                                         </div>
                                         <div className="max-w-[120px] md:max-w-[150px]">
                                             <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
-                                            <div className="text-[#D7263D] font-bold text-xs mt-1">₹ {selectedProduct.rate ? selectedProduct.rate.toFixed(2) : '250.00'}</div>
+                                            <div className="text-[#D7263D] font-bold text-xs mt-1">{selectedProduct.category === 'spices' ? 'Market Price' : `₹ ${selectedProduct.rate ? selectedProduct.rate.toFixed(2) : '250.00'}`}</div>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-2 bg-gray-50 px-2 md:px-3 py-1.5 rounded-full border border-gray-100 shadow-sm">
@@ -175,7 +178,7 @@ export default function Products() {
 
                                 <button type="submit" className="w-full mt-2 bg-[#25D366] text-white font-extrabold py-3.5 px-6 rounded-xl hover:bg-[#20BE5A] transition-all duration-300 shadow-md hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
-                                    Order on WhatsApp
+                                    {selectedProduct.category === 'spices' ? 'Enquire' : 'Order on WhatsApp'}
                                 </button>
                             </form>
                         </div>
