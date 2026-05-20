@@ -93,7 +93,7 @@
     "image": "/products/medicine/aloeveragel.jpg",
     "status": 1,
     "rate": 250,
-    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
+    "description": "Premium Aloe Vera Shampoo enriched with natural ingredients to gently cleanse the scalp, control dandruff, and nourish your hair from root to tip. Paraffin-free and free from harsh chemicals, it helps maintain a healthy scalp while leaving your hair soft, strong, and naturally shiny."
   },
   {
     "id": 10,
@@ -141,7 +141,7 @@
     "image": "/products/medicine/amrudhadienna.jpg",
     "status": 1,
     "rate": 2600,
-    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
+    "description": "Amruthadi Enna is a premium Ayurvedic massage oil formulated with traditional herbal ingredients to help relieve body pain, reduce muscle stiffness, and promote relaxation. Made with natural ingredients and free from paraffin and harsh chemicals, it is ideal for therapeutic massage and supports overall comfort and wellness."
   },
   {
     "id": 14,
@@ -189,7 +189,7 @@
     "image": "/products/medicine/smartplus.jpg",
     "status": 0,
     "rate": 2160,
-    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
+    "description": "Ashwagandha Lehyam is a traditional Ayurvedic formulation made with natural ingredients to help boost immunity, enhance energy, and support overall wellness. It helps reduce stress, improve stamina, and strengthen the body’s natural defenses for a healthier and more balanced lifestyle."
   },
   {
     "id": 18,
@@ -201,7 +201,7 @@
     "image": "/products/medicine/aswagandhadichoornam.jpg",
     "status": 1,
     "rate": 980,
-    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
+    "description": "Ashwagandha Lehyam is a traditional Ayurvedic formulation made with natural ingredients to help boost immunity, enhance energy, and support overall wellness. It helps reduce stress, improve stamina, and strengthen the body’s natural defenses for a healthier and more balanced lifestyle."
   },
   {
     "id": 19,
@@ -356,7 +356,7 @@
     "slug": "brahmi-capusul",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/products/medicine/brahmivita.jpg",
+    "image": "/products/medicine/brahmicapsule.jpg",
     "status": 0,
     "rate": 2250,
     "description": "Brahmi Capsules are a premium Ayurvedic herbal supplement formulated with natural ingredients to support memory, concentration, and mental clarity. They help enhance cognitive performance, reduce mental fatigue, and promote overall brain health and wellness."
@@ -396,18 +396,6 @@
     "status": 0,
     "rate": 2200,
     "description": "Bhringaraj Capsules are a premium Ayurvedic herbal supplement made with natural ingredients to support healthy hair growth and overall scalp wellness. This natural remedy helps strengthen hair roots, reduce hair fall, and promote thicker, healthier, and more lustrous hair."
-  },
-  {
-    "id": 164,
-    "code": null,
-    "name": "CHARCOL SHAMPOO 200ML",
-    "slug": "charcol-shampoo-200ml",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/charcoalshampoo.jpg",
-    "status": 0,
-    "rate": 390,
-    "description": "Charcoal Shampoo is a premium hair care formula enriched with activated charcoal to deeply cleanse the scalp, remove excess oil and impurities, and help control dandruff. Paraffin-free and free from harsh chemicals, it leaves your hair soft, smooth, and naturally shiny."
   },
   {
     "id": 165,
@@ -565,10 +553,21 @@
     "rate": 730,
     "description": "Hayalu Gel is a premium skincare formula enriched with natural ingredients to help reduce visible signs of aging and keep the skin hydrated and refreshed. Free from paraffin and harsh chemicals, it helps improve skin elasticity, smooth fine lines, and promote a youthful, radiant complexion."
   },
+   {
+    "id": 180,
+    "code": null,
+    "name": "PROSTA EASE TABLET",
+    "slug": "prosta-ease-tab",
+    "category": "medicine",
+    "unit": "Nos",
+    "image": "/products/medicine/prosta.jpg",
+    "status": 0,
+    "rate": 1800
+  },
   {
     "id": 181,
     "code": null,
-    "name": "INDRA NEELA THULASI",
+    "name": "INDRA NEELA THULASI  1 PIECE",
     "slug": "indra-neela-thulasi",
     "category": "medicine",
     "unit": "Nos",
