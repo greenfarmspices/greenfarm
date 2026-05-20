@@ -101,7 +101,7 @@ export default function Home() {
                 </h2>
                 <div className="flex flex-wrap gap-12 text-center md:text-left justify-center md:justify-start">
                     <div>
-                        <div className="text-4xl lg:text-5xl font-bold text-[#F4D160] mb-2 tracking-tighter">256k+</div>
+                        <div className="text-4xl lg:text-5xl font-bold text-[#F4D160] mb-2 tracking-tighter">10K+</div>
                         <div className="text-[10px] text-white/50 uppercase tracking-widest font-bold">Happy Customer</div>
                     </div>
                     <div>

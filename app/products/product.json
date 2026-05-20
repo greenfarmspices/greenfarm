@@ -8,7 +8,8 @@
     "unit": "Nos",
     "image": "/products/medicine/aloeverashampoo.jpg",
     "status": 1,
-    "rate": 740
+    "rate": 740,
+    "description": "Premium Aloe Vera Shampoo enriched with natural ingredients to gently cleanse the scalp, control dandruff, and nourish your hair from root to tip. Paraffin-free and free from harsh chemicals, it helps maintain a healthy scalp while leaving your hair soft, strong, and naturally shiny.."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "unit": "Nos",
     "image": "/products/medicine/coconutshampoo.jpg",
     "status": 1,
-    "rate": 750
+    "rate": 750,
+    "description": "Premium Coconut Shampoo enriched with natural coconut extracts to effectively fight dandruff, nourish the scalp, and leave your hair silky smooth. Paraffin-free and free from harsh chemicals, it helps strengthen hair, reduce dryness, and restore natural softness and shine."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "unit": "Nos",
     "image": "/products/medicine/hibiscusshammpoo.jpg",
     "status": 1,
-    "rate": 740
+    "rate": 740,
+    "description": "Premium Hibiscus Shampoo enriched with natural hibiscus extracts to help control dandruff, nourish the scalp, and promote healthy, vibrant hair. Paraffin-free and free from harsh chemicals, it helps reduce hair fall, strengthen roots, and leave your hair soft, smooth, and naturally shiny."
   },
   {
     "id": 5,
@@ -41,7 +44,8 @@
     "unit": "Nos",
     "image": "/products/medicine/actiplus.jpg",
     "status": 0,
-    "rate": 3500
+    "rate": 3500,
+    "description": "ActiPlus is a premium Ayurvedic wellness supplement formulated with natural ingredients to support vitality and vigor. It helps boost energy, enhance stamina, and promote overall wellness for an active and healthy lifestyle."
   },
   {
     "id": 6,
@@ -52,18 +56,20 @@
     "unit": "Nos",
     "image": "/products/medicine/agasthyarasayanam.jpg",
     "status": 0,
-    "rate": 750
+    "rate": 750,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 7,
     "code": 115,
-    "name": "ALOE VERA GEL SMALL",
+    "name": "ALOE VERA GEL 200 GRAM",
     "slug": "aloe-vera-gel-small",
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
     "status": 1,
-    "rate": 380
+    "rate": 380,
+    "description": "Premium Aloe Vera Gel enriched with natural aloe vera extracts to deeply hydrate, soothe, and nourish both skin and hair. Free from paraffin and harsh chemicals, it helps moisturize the skin, reduce dryness, and leave hair soft, smooth, and naturally healthy."
   },
   {
     "id": 8,
@@ -74,7 +80,8 @@
     "unit": "Nos",
     "image": "/products/medicine/aloeverashampoo.jpg",
     "status": 1,
-    "rate": 370
+    "rate": 370,
+    "description": "Premium Aloe Vera Shampoo enriched with natural aloe vera extracts to gently cleanse the scalp, control dandruff, and nourish your hair from root to tip. Paraffin-free and free from harsh chemicals, it helps maintain a healthy scalp while leaving your hair soft, strong, and naturally shiny."
   },
   {
     "id": 9,
@@ -85,18 +92,20 @@
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
     "status": 1,
-    "rate": 250
+    "rate": 250,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 10,
     "code": 114,
-    "name": "ALOEVERA GEL BIG",
+    "name": "ALOEVERA GEL 500 GRAM",
     "slug": "aloevera-gel-big",
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/aloeveragel.jpg",
     "status": 1,
-    "rate": 650
+    "rate": 650,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 11,
@@ -106,7 +115,9 @@
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/amrudhadienna.jpg",
-    "status": 1
+    "status": 1,
+    "rate": 1300,
+    "description": "Amruthadi Enna is a premium Ayurvedic massage oil formulated with traditional herbal ingredients to help relieve body pain, reduce muscle stiffness, and promote relaxation. Made with natural ingredients and free from paraffin and harsh chemicals, it is ideal for therapeutic massage and supports overall comfort and wellness."
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
     "unit": "Nos",
     "image": "/products/medicine/amruthathulasi.jpg",
     "status": 0,
-    "rate": 780
+    "rate": 780,
+    "description": "Amrutha Thulasi is a premium Ayurvedic herbal formulation made with natural ingredients to help relieve cough, cold, and various types of allergies. It supports respiratory health, soothes throat irritation, and strengthens the body’s natural immunity for overall wellness."
   },
   {
     "id": 13,
@@ -128,7 +140,8 @@
     "unit": "Nos",
     "image": "/products/medicine/amrudhadienna.jpg",
     "status": 1,
-    "rate": 2600
+    "rate": 2600,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 14,
@@ -138,18 +151,21 @@
     "category": "medicine",
     "unit": "Box",
     "image": "/products/medicine/arthonorm.jpg",
-    "status": 0
+    "status": 0,
+    "rate": 1900,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 15,
     "code": 277,
-    "name": "ASWAGANDHA CAP",
+    "name": "ASWAGANDHA CAPSULE",
     "slug": "aswagandha-cap",
     "category": "medicine",
     "unit": "Box",
-    "image": "/products/medicine/aswagandharasayanam.jpg",
+    "image": "/products/medicine/aswagandhacap.jpg",
     "status": 0,
-    "rate": 1800
+    "rate": 1800,
+    "description": "Ashwagandha Capsule is a premium Ayurvedic herbal supplement formulated with natural ingredients to help boost immunity, enhance energy, and support overall wellness. It helps reduce stress, improve stamina, and strengthen the body’s natural defenses for a healthier and more balanced lifestyle"
   },
   {
     "id": 16,
@@ -160,7 +176,8 @@
     "unit": "Nos",
     "image": "/products/medicine/aswagandharasayanam.jpg",
     "status": 0,
-    "rate": 700
+    "rate": 700,
+    "description": "Ashwagandha Lehyam is a traditional Ayurvedic formulation made with natural ingredients to help boost immunity, enhance energy, and support overall wellness. It helps reduce stress, improve stamina, and strengthen the body’s natural defenses for a healthier and more balanced lifestyle."
   },
   {
     "id": 17,
@@ -169,9 +186,10 @@
     "slug": "aswagandha-tablet",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/products/medicine/aswagandharasayanam.jpg",
+    "image": "/products/medicine/smartplus.jpg",
     "status": 0,
-    "rate": 2160
+    "rate": 2160,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 18,
@@ -182,7 +200,8 @@
     "unit": "Nos",
     "image": "/products/medicine/aswagandhadichoornam.jpg",
     "status": 1,
-    "rate": 980
+    "rate": 980,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 19,
@@ -191,9 +210,10 @@
     "slug": "avipathi-choornam",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/medicine/avipathi.jpg",
     "status": 0,
-    "rate": 580
+    "rate": 580,
+    "description": "Avipathy Choornam is a premium Ayurvedic herbal formulation made with natural ingredients to help relieve constipation and support healthy digestion. It promotes regular bowel movements, reduces acidity, and helps maintain overall digestive wellness."
   },
   {
     "id": 20,
@@ -204,7 +224,8 @@
     "unit": "Box",
     "image": "/products/medicine/ayurbreathgulika.jpg",
     "status": 0,
-    "rate": 1900
+    "rate": 1900,
+    "description": "Ayur Breath Gulika is a premium Ayurvedic herbal formulation made with natural ingredients to help relieve allergies and support the management of bronchial asthma. It promotes easier breathing, reduces respiratory discomfort, and supports overall lung health and immunity."
   },
   {
     "id": 127,
@@ -281,176 +302,6 @@
     "status": 0
   },
   {
-    "id": 134,
-    "code": 295,
-    "name": "ASWAGANDHARASAYANAM",
-    "slug": "aswagandharasayanam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/aswagandharasayanam.jpg",
-    "status": 1
-  },
-  {
-    "id": 135,
-    "code": 296,
-    "name": "BRAHMIPLUS",
-    "slug": "brahmiplus",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/brahmiplus.jpg",
-    "status": 1
-  },
-  {
-    "id": 136,
-    "code": 297,
-    "name": "BRAHMIVITA",
-    "slug": "brahmivita",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/brahmivita.jpg",
-    "status": 1
-  },
-  {
-    "id": 137,
-    "code": 298,
-    "name": "BRIHATHYADIKASHAYAM",
-    "slug": "brihathyadikashayam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/brihathyadikashayam.jpg",
-    "status": 1
-  },
-  {
-    "id": 138,
-    "code": 299,
-    "name": "BRINGARAJ",
-    "slug": "bringaraj",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/bringaraj.jpg",
-    "status": 1
-  },
-  {
-    "id": 139,
-    "code": 300,
-    "name": "CHARCOALSHAMPOO",
-    "slug": "charcoalshampoo",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/charcoalshampoo.jpg",
-    "status": 1
-  },
-  {
-    "id": 140,
-    "code": 301,
-    "name": "CHINCHADI",
-    "slug": "chinchadi",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/chinchadi.jpg",
-    "status": 1
-  },
-  {
-    "id": 141,
-    "code": 302,
-    "name": "CHOCOLATE",
-    "slug": "chocolate",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/chocolate.jpg",
-    "status": 1
-  },
-  {
-    "id": 142,
-    "code": 303,
-    "name": "CUCUMBERGEL",
-    "slug": "cucumbergel",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/cucumbergel.jpg",
-    "status": 1
-  },
-  {
-    "id": 143,
-    "code": 304,
-    "name": "DASAMOOLAHARITHAKILEHYAM",
-    "slug": "dasamoolaharithakilehyam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/dasamoolaharithakilehyam.jpg",
-    "status": 1
-  },
-  {
-    "id": 144,
-    "code": 305,
-    "name": "INDRATHULASI",
-    "slug": "indrathulasi",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/indrathulasi.jpg",
-    "status": 1
-  },
-  {
-    "id": 145,
-    "code": 306,
-    "name": "KARPOORADHI",
-    "slug": "karpooradhi",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/karpooradhi.jpg",
-    "status": 1
-  },
-  {
-    "id": 146,
-    "code": 307,
-    "name": "KOOSHMANDARASAYANAM",
-    "slug": "kooshmandarasayanam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/kooshmandarasayanam.jpg",
-    "status": 1
-  },
-  {
-    "id": 147,
-    "code": 308,
-    "name": "KUMKUMADITHAILAM",
-    "slug": "kumkumadithailam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/kumkumadithailam.jpg",
-    "status": 1
-  },
-  {
-    "id": 148,
-    "code": 309,
-    "name": "LAHARIMUKTHI",
-    "slug": "laharimukthi",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/laharimukthi.jpg",
-    "status": 1
-  },
-  {
-    "id": 149,
-    "code": 310,
-    "name": "NEEMGEL",
-    "slug": "neemgel",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/neemgel.jpg",
-    "status": 1
-  },
-  {
-    "id": 150,
-    "code": 311,
-    "name": "NEROFIT",
-    "slug": "nerofit",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/nerofit.jpg",
-    "status": 1
-  },
-  {
     "id": 151,
     "code": 312,
     "name": "PAINEX",
@@ -459,57 +310,8 @@
     "unit": "Nos",
     "image": "/products/medicine/painex.jpg",
     "status": 1,
-    "rate": 3500
-  },
-  {
-    "id": 152,
-    "code": 313,
-    "name": "PAPAYAGEL",
-    "slug": "papayagel",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/papayagel.jpg",
-    "status": 1
-  },
-  {
-    "id": 153,
-    "code": 314,
-    "name": "ROSEMARYGEL",
-    "slug": "rosemarygel",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/rosemarygel.jpg",
-    "status": 1
-  },
-  {
-    "id": 154,
-    "code": 315,
-    "name": "SANGUPUSHPAMGEL",
-    "slug": "sangupushpamgel",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/sangupushpamgel.jpg",
-    "status": 1
-  },
-  {
-    "id": 155,
-    "code": 316,
-    "name": "SLIMFITCAPSULE",
-    "slug": "slimfitcapsule",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/slimfitcapsule.jpg",
-    "status": 1
-  },
-  {
-    "id": 156,
-    "code": 317,
-    "name": "VACHADITHAILAM",
-    "slug": "vachadithailam",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/vachadithailam.jpg",
-    "status": 1
+    "rate": 3500,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 157,
@@ -520,7 +322,8 @@
     "unit": "Nos",
     "image": "/products/medicine/bahusalagulam.jpg",
     "status": 0,
-    "rate": 750
+    "rate": 750,
+    "description": "Bahusalagulam is a premium Ayurvedic herbal formulation made with natural ingredients to support the management of piles and fistula. It helps reduce discomfort, supports healthy digestion, and promotes overall anorectal wellness."
   },
   {
     "id": 158,
@@ -531,7 +334,8 @@
     "unit": "Nos",
     "image": "/products/medicine/balathailam.jpg",
     "status": 0,
-    "rate": 1450
+    "rate": 1450,
+    "description": "Bala Thailam is a premium Ayurvedic massage oil formulated with traditional herbal ingredients to nourish the body, relieve muscle stiffness, and promote relaxation. Ideal for daily body massage, it helps strengthen muscles and joints while supporting overall comfort and wellness."
   },
   {
     "id": 159,
@@ -542,7 +346,8 @@
     "unit": "Nos",
     "image": "/products/medicine/banstone.jpg",
     "status": 0,
-    "rate": 2300
+    "rate": 2300,
+    "description": "Banstone is a premium Ayurvedic herbal formulation made with natural ingredients to support urinary tract health and kidney wellness. It helps support the management of urinary calculi (kidney stones), haematuria, and related urinary discomfort while promoting healthy kidney function and overall urinary health."
   },
   {
     "id": 160,
@@ -553,7 +358,8 @@
     "unit": "Nos",
     "image": "/products/medicine/brahmivita.jpg",
     "status": 0,
-    "rate": 2250
+    "rate": 2250,
+    "description": "Brahmi Capsules are a premium Ayurvedic herbal supplement formulated with natural ingredients to support memory, concentration, and mental clarity. They help enhance cognitive performance, reduce mental fatigue, and promote overall brain health and wellness."
   },
   {
     "id": 161,
@@ -564,7 +370,8 @@
     "unit": "Nos",
     "image": "/products/medicine/brahmivita.jpg",
     "status": 0,
-    "rate": 850
+    "rate": 850,
+    "description": "Brahmi Vita is a premium Ayurvedic herbal formulation specially designed for children to support memory, concentration, and grasping power. Enriched with natural ingredients, it also helps promote healthy eye function and overall brain development for better learning and growth."
   },
   {
     "id": 162,
@@ -575,7 +382,8 @@
     "unit": "Nos",
     "image": "/products/medicine/brihathyadikashayam.jpg",
     "status": 0,
-    "rate": 1650
+    "rate": 1650,
+    "description": "Brihatyadi Kashayam is a premium Ayurvedic herbal formulation made with natural ingredients to support the management of elevated uric acid levels and urinary tract infections (UTIs). It helps promote urinary health, reduce discomfort, and support overall kidney and joint wellness."
   },
   {
     "id": 163,
@@ -586,7 +394,8 @@
     "unit": "Nos",
     "image": "/products/medicine/bringarajcapsule.jpg",
     "status": 0,
-    "rate": 2200
+    "rate": 2200,
+    "description": "Bhringaraj Capsules are a premium Ayurvedic herbal supplement made with natural ingredients to support healthy hair growth and overall scalp wellness. This natural remedy helps strengthen hair roots, reduce hair fall, and promote thicker, healthier, and more lustrous hair."
   },
   {
     "id": 164,
@@ -597,7 +406,8 @@
     "unit": "Nos",
     "image": "/products/medicine/charcoalshampoo.jpg",
     "status": 0,
-    "rate": 390
+    "rate": 390,
+    "description": "Charcoal Shampoo is a premium hair care formula enriched with activated charcoal to deeply cleanse the scalp, remove excess oil and impurities, and help control dandruff. Paraffin-free and free from harsh chemicals, it leaves your hair soft, smooth, and naturally shiny."
   },
   {
     "id": 165,
@@ -608,7 +418,8 @@
     "unit": "Nos",
     "image": "/products/medicine/chinchadi.jpg",
     "status": 0,
-    "rate": 3500
+    "rate": 3500,
+    "description": "Chinchadi Thailam is a premium Ayurvedic massage oil formulated with traditional herbal ingredients to help relieve body pain, reduce muscle stiffness, and support joint comfort. Ideal for therapeutic massage, it promotes relaxation and overall physical wellness."
   },
   {
     "id": 166,
@@ -619,18 +430,8 @@
     "unit": "Nos",
     "image": "/products/medicine/chinchadi.jpg",
     "status": 0,
-    "rate": 1750
-  },
-  {
-    "id": 167,
-    "code": null,
-    "name": "CHOCOLTATE HOME MADE 180",
-    "slug": "chocoltate-home-made-180",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/chocolate.jpg",
-    "status": 0,
-    "rate": 200
+    "rate": 1750,
+    "description": "Chinchadi Thailam is a premium Ayurvedic massage oil formulated with traditional herbal ingredients to help relieve body pain, reduce muscle stiffness, and support joint comfort. Ideal for therapeutic massage, it promotes relaxation and overall physical wellness."
   },
   {
     "id": 168,
@@ -641,18 +442,8 @@
     "unit": "Nos",
     "image": "/products/medicine/cholcare.jpg",
     "status": 0,
-    "rate": 1900
-  },
-  {
-    "id": 169,
-    "code": null,
-    "name": "COCONUT MILK SHAMPOO 200 ML",
-    "slug": "coconut-milk-shampoo-200-ml",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/coconut.jpg",
-    "status": 0,
-    "rate": 380
+    "rate": 1900,
+    "description": "Choclare is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy cholesterol levels and overall heart wellness. It helps lower LDL cholesterol and triglycerides while promoting cardiovascular health and supporting a healthy lifestyle."
   },
   {
     "id": 170,
@@ -663,7 +454,8 @@
     "unit": "Nos",
     "image": "/products/medicine/coughfree.jpg",
     "status": 0,
-    "rate": 1960
+    "rate": 1960,
+    "description": "Cough Free is a premium Ayurvedic herbal formulation made with natural ingredients to help relieve cough, cold, and allergies. It soothes throat irritation, supports respiratory health, and strengthens the body’s natural defenses for overall wellness."
   },
   {
     "id": 171,
@@ -674,7 +466,8 @@
     "unit": "Nos",
     "image": "/products/medicine/cucumbergel.jpg",
     "status": 0,
-    "rate": 250
+    "rate": 250,
+    "description": "Cucumber Gel is a premium skincare formula enriched with natural cucumber extracts to help manage various skin concerns such as acne, blemishes, and irritation. Free from paraffin and harsh chemicals, it soothes, hydrates, and refreshes the skin, leaving it healthy, clear, and naturally radiant."
   },
   {
     "id": 172,
@@ -685,7 +478,8 @@
     "unit": "Nos",
     "image": "/products/medicine/danthapalakeram.jpg",
     "status": 0,
-    "rate": 1880
+    "rate": 1880,
+    "description": "Danthapala Keram is a premium Ayurvedic herbal oil formulated with natural ingredients to support the management of psoriasis, fungal infections, itching, and various skin conditions. It helps soothe irritation, reduce dryness, and promote healthy, nourished skin."
   },
   {
     "id": 173,
@@ -696,7 +490,8 @@
     "unit": "Nos",
     "image": "/products/medicine/dasamoolaharithaki.jpg",
     "status": 0,
-    "rate": 750
+    "rate": 750,
+    "description": "Dashamoola Harithaki Lehyam is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy digestion and metabolism. It helps promote natural weight management, improves bowel regularity, and supports overall wellness as part of a balanced lifestyle."
   },
   {
     "id": 174,
@@ -707,7 +502,8 @@
     "unit": "Nos",
     "image": "/products/medicine/dhanyakanthi.jpg",
     "status": 0,
-    "rate": 1320
+    "rate": 1320,
+    "description": "Dhanyakanthi is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy cholesterol levels and overall heart protection. It helps maintain cardiovascular wellness, promotes healthy circulation, and supports a healthy lifestyle."
   },
   {
     "id": 175,
@@ -718,7 +514,8 @@
     "unit": "Nos",
     "image": "/products/medicine/diafree.jpg",
     "status": 0,
-    "rate": 2100
+    "rate": 2100,
+    "description": "Dia Free is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy blood sugar levels and overall metabolic wellness. It helps maintain glucose balance, supports energy levels, and promotes overall health as part of a healthy lifestyle."
   },
   {
     "id": 176,
@@ -729,18 +526,20 @@
     "unit": "Nos",
     "image": "/products/medicine/diaqre.jpg",
     "status": 0,
-    "rate": 2200
+    "rate": 2200,
+    "description": "Diaqre is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy blood sugar levels and overall metabolic wellness. It helps maintain glucose balance, supports energy levels, and promotes overall health as part of a healthy lifestyle."
   },
   {
     "id": 177,
     "code": null,
-    "name": "DIGESTIVE CARE CAP",
+    "name": "DIGESTIVE CARE CAPSULE",
     "slug": "digestive-care-cap",
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/digestivecarecap.jpg",
     "status": 0,
-    "rate": 1900
+    "rate": 1900,
+    "description": "Digestive Care Capsules are a premium Ayurvedic herbal formulation made with natural ingredients to help relieve gas, acidity, and indigestion. They support healthy digestion, reduce bloating, and promote overall digestive comfort and wellness."
   },
   {
     "id": 178,
@@ -751,7 +550,8 @@
     "unit": "Nos",
     "image": "/products/medicine/digex.jpg",
     "status": 0,
-    "rate": 2180
+    "rate": 2180,
+    "description": "Digex Capsules are a premium Ayurvedic herbal formulation made with natural ingredients to help relieve hyperacidity, heartburn, and digestive discomfort. They support digestive stimulation, reduce bloating, and promote healthy digestion and overall digestive wellness."
   },
   {
     "id": 179,
@@ -762,18 +562,8 @@
     "unit": "Nos",
     "image": "/products/medicine/hayalugel.jpg",
     "status": 0,
-    "rate": 730
-  },
-  {
-    "id": 180,
-    "code": null,
-    "name": "HIBISCUS SHAMPOO 200 ML",
-    "slug": "hibiscus-shampoo-200-ml",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/hibiscusshammpoo.jpg",
-    "status": 0,
-    "rate": 390
+    "rate": 730,
+    "description": "Hayalu Gel is a premium skincare formula enriched with natural ingredients to help reduce visible signs of aging and keep the skin hydrated and refreshed. Free from paraffin and harsh chemicals, it helps improve skin elasticity, smooth fine lines, and promote a youthful, radiant complexion."
   },
   {
     "id": 181,
@@ -784,7 +574,8 @@
     "unit": "Nos",
     "image": "/products/medicine/indrathulasi.jpg",
     "status": 0,
-    "rate": 280
+    "rate": 280,
+    "description": "Indra Neela Thulasi is a premium Ayurvedic herbal formulation made with natural ingredients to help relieve headaches, clear nasal blockage, and reduce motion sickness. It provides soothing relief and supports overall respiratory and head comfort."
   },
   {
     "id": 182,
@@ -795,7 +586,8 @@
     "unit": "Nos",
     "image": "/products/medicine/kallur.jpg",
     "status": 0,
-    "rate": 1300
+    "rate": 1300,
+    "description": "Kallurvanchyadi is a premium Ayurvedic herbal formulation made with natural ingredients to support the management of kidney stones and urinary discomfort. It helps promote healthy urine flow, supports kidney function, and contributes to overall urinary tract wellness."
   },
   {
     "id": 183,
@@ -806,7 +598,8 @@
     "unit": "Nos",
     "image": "/products/medicine/kanchanara.jpg",
     "status": 0,
-    "rate": 2150
+    "rate": 2150,
+    "description": "Kanchanara is a premium Ayurvedic herbal formulation made with natural ingredients to support healthy thyroid function and overall hormonal balance. It helps maintain metabolic wellness, supports glandular health, and promotes overall well-being."
   },
   {
     "id": 184,
@@ -817,7 +610,8 @@
     "unit": "Nos",
     "image": "/products/medicine/karpooradhi.jpg",
     "status": 0,
-    "rate": 780
+    "rate": 780,
+    "description": "Karpooradi Thailam is a premium Ayurvedic herbal oil formulated with natural ingredients to help relieve migraine, headaches, and nasal congestion that may contribute to snoring. It provides soothing relief, promotes clear breathing, and supports overall head and sinus comfort."
   },
   {
     "id": 185,
@@ -828,7 +622,8 @@
     "unit": "Nos",
     "image": "/products/medicine/karpooradhi.jpg",
     "status": 0,
-    "rate": 1800
+    "rate": 1800,
+    "description": "Karpooradi Thailam is a premium Ayurvedic herbal oil formulated with natural ingredients to help relieve migraine, headaches, and nasal congestion that may contribute to snoring. It provides soothing relief, promotes clear breathing, and supports overall head and sinus comfort."
   },
   {
     "id": 186,
@@ -839,7 +634,8 @@
     "unit": "Nos",
     "image": "/products/medicine/kooshmandarasayanam.jpg",
     "status": 0,
-    "rate": 780
+    "rate": 780,
+    "description": "Kooshmanda Rasayanam is a premium Ayurvedic herbal formulation enriched with natural ingredients to support healthy weight gain and overall nutritional wellness. It acts as a natural vitamin supplement, helping improve strength, energy, and vitality while promoting healthy growth and recovery."
   },
   {
     "id": 187,
@@ -850,7 +646,8 @@
     "unit": "Nos",
     "image": "/products/medicine/kumkumadithailam.jpg",
     "status": 0,
-    "rate": 1160
+    "rate": 1160,
+    "description": "Kumkumadi Thailam is a premium Ayurvedic facial oil formulated with natural ingredients to help reduce pimples, pigmentation, and dark spots. It nourishes the skin, improves complexion, and promotes a clear, radiant, and even-toned appearance."
   },
   {
     "id": 188,
@@ -861,7 +658,8 @@
     "unit": "Nos",
     "image": "/products/medicine/liverex.jpg",
     "status": 0,
-    "rate": 2290
+    "rate": 2290,
+    "description": "Liverex is a premium Ayurvedic herbal formulation made with natural ingredients to support liver protection and healthy liver function. It helps manage fatty liver, supports detoxification, and promotes overall digestive and metabolic wellness."
   },
   {
     "id": 189,
@@ -870,9 +668,10 @@
     "slug": "mari-gold-gel",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/medicine/marigoldgel.jpg",
     "status": 0,
-    "rate": 260
+    "rate": 260,
+    "description": "Marigold Gel is a premium skincare formula enriched with natural ingredients to help reduce acne, blemishes, and skin irritation. Free from paraffin and harsh chemicals, it soothes the skin, supports healing, and promotes a clear, healthy, and radiant complexion."
   },
   {
     "id": 190,
@@ -883,7 +682,8 @@
     "unit": "Nos",
     "image": "/products/medicine/muslivita.jpg",
     "status": 0,
-    "rate": 1740
+    "rate": 1740,
+    "description": "Musli Vita is a premium Ayurvedic herbal formulation made with natural ingredients to support vigor, vitality, and overall reproductive wellness. It helps enhance stamina, boost energy, and supports healthy sperm count and male wellness."
   },
   {
     "id": 191,
@@ -892,9 +692,10 @@
     "slug": "musthadhi",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/medicine/mushtadi.jpg",
     "status": 0,
-    "rate": 1680
+    "rate": 1680,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 192,
@@ -905,7 +706,8 @@
     "unit": "Nos",
     "image": "/products/medicine/neelibringadhi.jpg",
     "status": 0,
-    "rate": 3500
+    "rate": 3500,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 193,
@@ -916,7 +718,8 @@
     "unit": "Nos",
     "image": "/products/medicine/neelibringadhi.jpg",
     "status": 0,
-    "rate": 1800
+    "rate": 1800,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 194,
@@ -927,7 +730,8 @@
     "unit": "Nos",
     "image": "/products/medicine/neemgel.jpg",
     "status": 0,
-    "rate": 250
+    "rate": 250,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 195,
@@ -938,7 +742,8 @@
     "unit": "Nos",
     "image": "/products/medicine/nerofit.jpg",
     "status": 0,
-    "rate": 2490
+    "rate": 2490,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 196,
@@ -949,7 +754,8 @@
     "unit": "Nos",
     "image": "/products/medicine/nimba.jpg",
     "status": 0,
-    "rate": 2200
+    "rate": 2200,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 197,
@@ -960,7 +766,8 @@
     "unit": "Nos",
     "image": "/products/medicine/optone.jpg",
     "status": 0,
-    "rate": 760
+    "rate": 760,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 198,
@@ -971,7 +778,8 @@
     "unit": "Nos",
     "image": "/products/medicine/painex.jpg",
     "status": 0,
-    "rate": 1750
+    "rate": 1750,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 199,
@@ -982,7 +790,8 @@
     "unit": "Nos",
     "image": "/products/medicine/panchamooli.jpg",
     "status": 0,
-    "rate": 1260
+    "rate": 1260,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 200,
@@ -993,7 +802,8 @@
     "unit": "Nos",
     "image": "/products/medicine/papayagel.jpg",
     "status": 0,
-    "rate": 260
+    "rate": 260,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 201,
@@ -1004,7 +814,8 @@
     "unit": "Nos",
     "image": "/products/medicine/pileease.jpg",
     "status": 0,
-    "rate": 1780
+    "rate": 1780,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 202,
@@ -1015,7 +826,8 @@
     "unit": "Nos",
     "image": "/products/medicine/piles.jpg",
     "status": 0,
-    "rate": 2320
+    "rate": 2320,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 203,
@@ -1026,7 +838,8 @@
     "unit": "Nos",
     "image": "/products/medicine/punarnavadi.jpg",
     "status": 0,
-    "rate": 1300
+    "rate": 1300,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 204,
@@ -1037,7 +850,8 @@
     "unit": "Nos",
     "image": "/products/medicine/rosemarygel (2).jpg",
     "status": 0,
-    "rate": 180
+    "rate": 180,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 205,
@@ -1046,9 +860,10 @@
     "slug": "safron-gel",
     "category": "medicine",
     "unit": "Nos",
-    "image": "/Logo.jpg",
+    "image": "/products/medicine/safrongel.jpg",
     "status": 0,
-    "rate": 300
+    "rate": 300,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 206,
@@ -1059,7 +874,8 @@
     "unit": "Nos",
     "image": "/products/medicine/sangupushpamgel.jpg",
     "status": 0,
-    "rate": 300
+    "rate": 300,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 207,
@@ -1070,7 +886,8 @@
     "unit": "Nos",
     "image": "/products/medicine/satavari.jpg",
     "status": 0,
-    "rate": 2160
+    "rate": 2160,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 208,
@@ -1081,7 +898,8 @@
     "unit": "Nos",
     "image": "/products/medicine/satavari.jpg",
     "status": 0,
-    "rate": 1800
+    "rate": 1800,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 209,
@@ -1092,7 +910,8 @@
     "unit": "Nos",
     "image": "/products/medicine/sathavaricap.jpg",
     "status": 0,
-    "rate": 850
+    "rate": 850,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 210,
@@ -1103,18 +922,20 @@
     "unit": "Nos",
     "image": "/products/medicine/serp.jpg",
     "status": 0,
-    "rate": 2250
+    "rate": 2250,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 211,
     "code": null,
-    "name": "SLIM FIT CAP BIG",
+    "name": "SLIM FIT CAPSULE BIG",
     "slug": "slim-fit-cap-big",
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/slimfitcapsule.jpg",
     "status": 0,
-    "rate": 2200
+    "rate": 2200,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 212,
@@ -1125,7 +946,8 @@
     "unit": "Nos",
     "image": "/products/medicine/thikathakakashayam.jpg",
     "status": 0,
-    "rate": 1260
+    "rate": 1260,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 213,
@@ -1136,7 +958,8 @@
     "unit": "Nos",
     "image": "/products/medicine/thripala.jpg",
     "status": 0,
-    "rate": 1900
+    "rate": 1900,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 214,
@@ -1147,7 +970,8 @@
     "unit": "Nos",
     "image": "/products/medicine/vachadithailam.jpg",
     "status": 0,
-    "rate": 1900
+    "rate": 1900,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 215,
@@ -1158,7 +982,8 @@
     "unit": "Nos",
     "image": "/products/medicine/vachadithailam.jpg",
     "status": 0,
-    "rate": 850
+    "rate": 850,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 216,
@@ -1169,7 +994,8 @@
     "unit": "Nos",
     "image": "/products/medicine/vijaya.jpg",
     "status": 0,
-    "rate": 780
+    "rate": 780,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 217,
@@ -1180,7 +1006,8 @@
     "unit": "Nos",
     "image": "/products/medicine/yasthimadhu.jpg",
     "status": 0,
-    "rate": 2350
+    "rate": 2350,
+    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
   {
     "id": 218,
@@ -1225,17 +1052,6 @@
     "image": "/products/spices/chilly.jpg",
     "status": 0,
     "rate": 180
-  },
-  {
-    "id": 222,
-    "code": null,
-    "name": "CHOCOLATE FAMILY PACK",
-    "slug": "chocolate-family-pack",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/chocolate.jpg",
-    "status": 0,
-    "rate": 400
   },
   {
     "id": 223,

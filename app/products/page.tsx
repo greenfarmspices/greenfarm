@@ -19,6 +19,7 @@ export default function Products() {
         image: string;
         status: number;
         rate?: number;
+        description?: string;
     }
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
     const [formData, setFormData] = useState({ quantity: 1, name: '', phone: '', address: '', pincode: '' });
@@ -27,7 +28,7 @@ export default function Products() {
         e.preventDefault();
         if (!selectedProduct) return;
 
-        const message = `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Product Code:* ${selectedProduct.code || 'N/A'}\n*Price:* ₹${selectedProduct.rate || 0} x ${formData.quantity}\n*Total:* ₹${(selectedProduct.rate || 0) * formData.quantity}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
+        const message = `*New Order Inquiry*\n\n*Product:* ${selectedProduct.name}\n*Price:* ₹${selectedProduct.rate || 0} x ${formData.quantity}\n*Total:* ₹${(selectedProduct.rate || 0) * formData.quantity}\n*Quantity:* ${formData.quantity} ${selectedProduct.unit}\n\n*Customer Details:*\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Address:* ${formData.address}\n*Pincode:* ${formData.pincode}`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappNumber = "918075859465"; // Actual WhatsApp number
 
@@ -84,7 +85,7 @@ export default function Products() {
                                 {/* Rating */}
                                 <div className="absolute top-3 left-3 sm:top-5 sm:left-5 bg-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-full flex items-center gap-1 shadow-md">
                                     <span className="text-[#F4D160] text-[8px] sm:text-[10px] tracking-tighter">★★★★★</span>
-                                    <span className="text-[#0A1612] text-[8px] sm:text-[9px] font-extrabold ml-1">(5)</span>
+                                    <span className="text-[#0A1612] text-[8px] sm:text-[9px] font-extrabold ml-1">({index % 2 === 0 ? '4.8' : '4.9'})</span>
                                 </div>
                             </div>
                             <div className="p-3 sm:p-5 flex flex-col items-center text-center">
@@ -123,21 +124,28 @@ export default function Products() {
                         <div className="overflow-y-auto flex-grow custom-scrollbar p-6 md:p-8 bg-gray-50/50">
                             
                             {/* Product Info & Quantity Selector */}
-                            <div className="flex items-center justify-between bg-white p-3 md:p-4 rounded-[1.5rem] border border-gray-100 mb-8 shadow-sm">
-                                <div className="flex items-center gap-4">
-                                    <div className="w-16 h-16 relative rounded-xl overflow-hidden bg-gray-50 shrink-0 border border-gray-100 flex items-center justify-center">
-                                        <Image src={selectedProduct.image} alt={selectedProduct.name} fill sizes="64px" className="object-contain p-1" />
+                            <div className="bg-white p-3 md:p-4 rounded-[1.5rem] border border-gray-100 mb-8 shadow-sm flex flex-col gap-4">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex items-center gap-4">
+                                        <div className="w-16 h-16 relative rounded-xl overflow-hidden bg-gray-50 shrink-0 border border-gray-100 flex items-center justify-center">
+                                            <Image src={selectedProduct.image} alt={selectedProduct.name} fill sizes="64px" className="object-contain p-1" />
+                                        </div>
+                                        <div className="max-w-[120px] md:max-w-[150px]">
+                                            <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
+                                            <div className="text-[#D7263D] font-bold text-xs mt-1">₹ {selectedProduct.rate ? selectedProduct.rate.toFixed(2) : '250.00'}</div>
+                                        </div>
                                     </div>
-                                    <div className="max-w-[120px] md:max-w-[150px]">
-                                        <h4 className="font-[family-name:var(--font-playfair)] text-[#0A1612] font-bold text-sm md:text-base leading-tight truncate">{selectedProduct.name}</h4>
-                                        <div className="text-[#D7263D] font-bold text-xs mt-1">₹ {selectedProduct.rate ? selectedProduct.rate.toFixed(2) : '250.00'}</div>
+                                    <div className="flex items-center gap-2 bg-gray-50 px-2 md:px-3 py-1.5 rounded-full border border-gray-100 shadow-sm">
+                                        <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: Math.max(1, prev.quantity - 1)}))} className="text-gray-500 hover:text-[#0A1612] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">−</button>
+                                        <span className="text-[#0A1612] font-bold w-6 text-center text-sm">{formData.quantity}</span>
+                                        <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: prev.quantity + 1}))} className="text-[#25D366] hover:text-[#20BE5A] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">+</button>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-2 bg-gray-50 px-2 md:px-3 py-1.5 rounded-full border border-gray-100 shadow-sm">
-                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: Math.max(1, prev.quantity - 1)}))} className="text-gray-500 hover:text-[#0A1612] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">−</button>
-                                    <span className="text-[#0A1612] font-bold w-6 text-center text-sm">{formData.quantity}</span>
-                                    <button type="button" onClick={() => setFormData(prev => ({...prev, quantity: prev.quantity + 1}))} className="text-[#25D366] hover:text-[#20BE5A] w-6 h-6 flex items-center justify-center text-xl leading-none transition-colors">+</button>
-                                </div>
+                                {selectedProduct.description && (
+                                    <div className="text-left bg-gray-50/50 p-3 rounded-xl text-xs md:text-sm text-gray-500 leading-relaxed border border-gray-100/50">
+                                        {selectedProduct.description}
+                                    </div>
+                                )}
                             </div>
 
                             <form onSubmit={handleWhatsAppSubmit} className="space-y-4">
