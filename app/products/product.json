@@ -879,8 +879,8 @@
   {
     "id": 207,
     "code": null,
-    "name": "SATAVARI BIG",
-    "slug": "satavari-big",
+    "name": "SATAVARI",
+    "slug": "satavari",
     "category": "medicine",
     "unit": "Nos",
     "image": "/products/medicine/satavari.jpg",
@@ -888,18 +888,7 @@
     "rate": 2160,
     "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
   },
-  {
-    "id": 208,
-    "code": null,
-    "name": "SATAVARI CAP",
-    "slug": "satavari-cap",
-    "category": "medicine",
-    "unit": "Nos",
-    "image": "/products/medicine/satavari.jpg",
-    "status": 0,
-    "rate": 1800,
-    "description": "This is a premium Ayurvedic medicine formulated with natural ingredients to support your holistic wellness and daily health."
-  },
+
   {
     "id": 209,
     "code": null,
